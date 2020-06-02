@@ -56,15 +56,39 @@
 		94D22DFC2486EB02004E671C /* Virtual Rosary */ = {
 			isa = PBXGroup;
 			children = (
+				94D22E142486EB6E004E671C /* Model */,
+				94D22E132486EB65004E671C /* View */,
+				94D22E122486EB57004E671C /* Controller */,
 				94D22DFD2486EB02004E671C /* AppDelegate.swift */,
 				94D22DFF2486EB02004E671C /* SceneDelegate.swift */,
-				94D22E012486EB02004E671C /* ViewController.swift */,
-				94D22E032486EB02004E671C /* Main.storyboard */,
 				94D22E062486EB03004E671C /* Assets.xcassets */,
 				94D22E082486EB03004E671C /* LaunchScreen.storyboard */,
 				94D22E0B2486EB03004E671C /* Info.plist */,
 			);
 			path = "Virtual Rosary";
+			sourceTree = "<group>";
+		};
+		94D22E122486EB57004E671C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94D22E012486EB02004E671C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94D22E132486EB65004E671C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94D22E032486EB02004E671C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94D22E142486EB6E004E671C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

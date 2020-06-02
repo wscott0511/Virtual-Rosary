@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Virtual_Rosary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hiclipart.com" translatesAutoresizingMaskIntoConstraints="NO" id="Exq-7C-8E5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0u-Wo-L9L">
+                                <rect key="frame" x="0.0" y="763" width="414" height="85"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="wy1-Xu-3m5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Lets Get Started">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hTE-1Y-6z0" kind="show" id="q23-Cr-nrY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="n0u-Wo-L9L" secondAttribute="bottom" constant="14" id="7gj-0V-uL6"/>
+                            <constraint firstAttribute="bottom" secondItem="Exq-7C-8E5" secondAttribute="bottom" id="Iss-bW-M8R"/>
+                            <constraint firstItem="n0u-Wo-L9L" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KIA-8m-F7F"/>
+                            <constraint firstItem="n0u-Wo-L9L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MO6-Gk-mzd"/>
+                            <constraint firstItem="Exq-7C-8E5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UUt-ar-wjg"/>
+                            <constraint firstItem="Exq-7C-8E5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YIp-bk-DvY"/>
+                            <constraint firstItem="Exq-7C-8E5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qba-XB-IEP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gHB-bC-ESo">
+            <objects>
+                <viewController id="hTE-1Y-6z0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RGS-d3-k9E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="z5D-5p-gcW">
+                                <rect key="frame" x="0.0" y="538" width="414" height="270"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-0n-ktL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Lgz-G9-OuJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Monday &amp; Saturday">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z86-OL-HMH">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Tuesday &amp; Friday">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVE-zj-2hs">
+                                        <rect key="frame" x="0.0" y="140" width="414" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Wednesday &amp; Sunday">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yp-Ku-3fh">
+                                        <rect key="frame" x="0.0" y="210" width="414" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Thursday">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Z86-OL-HMH" firstAttribute="height" secondItem="8fk-0n-ktL" secondAttribute="height" id="6xA-k4-QJC"/>
+                                    <constraint firstItem="cVE-zj-2hs" firstAttribute="height" secondItem="Z86-OL-HMH" secondAttribute="height" id="LFp-U3-YEy"/>
+                                    <constraint firstItem="0yp-Ku-3fh" firstAttribute="height" secondItem="cVE-zj-2hs" secondAttribute="height" id="o7P-nz-Ipt"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the day" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlH-pO-v8c">
+                                <rect key="frame" x="29" y="75" width="356" height="68.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="z5D-5p-gcW" firstAttribute="bottom" secondItem="vUZ-ZK-He1" secondAttribute="bottom" id="ADo-qD-cO9"/>
+                            <constraint firstItem="IlH-pO-v8c" firstAttribute="centerX" secondItem="RGS-d3-k9E" secondAttribute="centerX" id="F56-c3-UNb"/>
+                            <constraint firstItem="z5D-5p-gcW" firstAttribute="leading" secondItem="vUZ-ZK-He1" secondAttribute="leading" id="k7L-sD-fHb"/>
+                            <constraint firstItem="IlH-pO-v8c" firstAttribute="top" secondItem="vUZ-ZK-He1" secondAttribute="top" constant="75" id="nA5-MJ-rFA"/>
+                            <constraint firstItem="z5D-5p-gcW" firstAttribute="trailing" secondItem="vUZ-ZK-He1" secondAttribute="trailing" id="xTh-SV-JvJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vUZ-ZK-He1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="It8-ya-pdc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G9V-Nx-vBl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911.59420289855075" y="121.875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gh0-Bk-ZIv">
+            <objects>
+                <viewController id="7dz-Xz-XU3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eof-O3-vbz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6Q-qb-2i1">
+                                <rect key="frame" x="0.0" y="782" width="414" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="k6O-gs-fyP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="In the name of the Father, and of the Son, and of the Holy Spirit. Amen." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tHO-Zz-yIs">
+                                <rect key="frame" x="20" y="384" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign of the Cross" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnI-w8-Ih1">
+                                <rect key="frame" x="20" y="83" width="374" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="L6Q-qb-2i1" firstAttribute="leading" secondItem="fik-EK-640" secondAttribute="leading" id="7nq-O2-dXq"/>
+                            <constraint firstItem="L6Q-qb-2i1" firstAttribute="trailing" secondItem="fik-EK-640" secondAttribute="trailing" id="AEY-k6-KiQ"/>
+                            <constraint firstItem="L6Q-qb-2i1" firstAttribute="bottom" secondItem="fik-EK-640" secondAttribute="bottom" id="RXn-Yd-lUX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fik-EK-640"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1LM-Uh-3nA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582.608695652174" y="-546.42857142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hiclipart.com" width="400" height="550.5"/>
+    </resources>
+</document>
