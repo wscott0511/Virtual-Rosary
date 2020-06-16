@@ -12,14 +12,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Virtual_Rosary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hiclipart.com" translatesAutoresizingMaskIntoConstraints="NO" id="Exq-7C-8E5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0u-Wo-L9L">
-                                <rect key="frame" x="0.0" y="568" width="375" height="85"/>
+                                <rect key="frame" x="0.0" y="548" width="375" height="85"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="wy1-Xu-3m5"/>
@@ -45,6 +46,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="W20-VK-hvy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -1889,7 +1891,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Joyful Mystery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjQ-Xg-dZg">
-                                <rect key="frame" x="47" y="316" width="281.5" height="35"/>
+                                <rect key="frame" x="47" y="316" width="281" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3772,7 +3774,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNh-Y5-Gu5">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -3866,7 +3868,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwq-v4-fHR">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -4897,7 +4899,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhg-VS-4lY">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -4982,7 +4984,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fourth Joyful Mystery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qc-kC-rEt">
-                                <rect key="frame" x="34" y="316" width="307.5" height="35"/>
+                                <rect key="frame" x="34" y="316" width="307" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -5928,7 +5930,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDB-sn-o7C">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -6013,7 +6015,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Joyful Mystery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDW-rm-ZBS">
-                                <rect key="frame" x="46" y="316" width="283.5" height="35"/>
+                                <rect key="frame" x="46" y="316" width="283" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -6939,6 +6941,9 @@
                                 <state key="normal" title="Next Prayer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JgP-BZ-pGk" kind="show" id="R10-Xb-T8m"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy7-io-XoH">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
@@ -6956,7 +6961,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60D-aE-0ys">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -7041,13 +7046,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxg-N6-h2W">
-                                <rect key="frame" x="25" y="316" width="325" height="35"/>
+                                <rect key="frame" x="20" y="322" width="335" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="4Sp-1P-lMU"/>
+                                    <constraint firstAttribute="height" constant="35" id="ZZB-m7-Q9l"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="The Agony in the Garden of Gethsemane" translatesAutoresizingMaskIntoConstraints="NO" id="1u5-dK-sud">
-                                <rect key="frame" x="16" y="370" width="343" height="121"/>
+                                <rect key="frame" x="16" y="376" width="343" height="121"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="121" id="mEk-Gx-Rwp"/>
@@ -7067,9 +7076,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Wnq-j9-msf" firstAttribute="trailing" secondItem="1u5-dK-sud" secondAttribute="trailing" constant="16" id="906-2p-a8B"/>
+                            <constraint firstItem="Sxg-N6-h2W" firstAttribute="leading" secondItem="Wnq-j9-msf" secondAttribute="leading" constant="20" id="9qB-Vu-TtM"/>
                             <constraint firstItem="UIk-wA-b0E" firstAttribute="leading" secondItem="Wnq-j9-msf" secondAttribute="leading" id="ARM-1N-0Hs"/>
-                            <constraint firstItem="Sxg-N6-h2W" firstAttribute="top" secondItem="Ace-bt-gh9" secondAttribute="bottom" constant="44" id="IMM-w3-amL"/>
                             <constraint firstItem="UIk-wA-b0E" firstAttribute="trailing" secondItem="Wnq-j9-msf" secondAttribute="trailing" id="KOx-SH-3xh"/>
+                            <constraint firstItem="Wnq-j9-msf" firstAttribute="trailing" secondItem="Sxg-N6-h2W" secondAttribute="trailing" constant="20" id="Qwl-0W-4eG"/>
                             <constraint firstItem="Ace-bt-gh9" firstAttribute="top" secondItem="o8J-Zk-BMW" secondAttribute="bottom" constant="22" id="RQP-2i-Yjf"/>
                             <constraint firstItem="Sxg-N6-h2W" firstAttribute="centerX" secondItem="yVQ-54-CVv" secondAttribute="centerX" id="Rvb-m1-e3S"/>
                             <constraint firstItem="Wnq-j9-msf" firstAttribute="trailing" secondItem="o8J-Zk-BMW" secondAttribute="trailing" constant="20" id="Xbg-zj-dg3"/>
@@ -7078,6 +7088,7 @@
                             <constraint firstItem="Ace-bt-gh9" firstAttribute="centerX" secondItem="yVQ-54-CVv" secondAttribute="centerX" id="f4E-Um-9E4"/>
                             <constraint firstItem="UIk-wA-b0E" firstAttribute="bottom" secondItem="Wnq-j9-msf" secondAttribute="bottom" id="fq7-rh-pgy"/>
                             <constraint firstItem="1u5-dK-sud" firstAttribute="top" secondItem="Sxg-N6-h2W" secondAttribute="bottom" constant="19" id="gtK-3u-orz"/>
+                            <constraint firstItem="Sxg-N6-h2W" firstAttribute="top" secondItem="Ace-bt-gh9" secondAttribute="bottom" constant="50" id="jcD-DW-MdM"/>
                             <constraint firstItem="o8J-Zk-BMW" firstAttribute="top" secondItem="Wnq-j9-msf" secondAttribute="top" constant="39" id="mwj-QR-gWA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wnq-j9-msf"/>
@@ -7987,7 +7998,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMS-WU-1Pt">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -8946,7 +8957,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NE5-cR-qUh">
-                                <rect key="frame" x="106.5" y="355.5" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="355.5" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -9977,7 +9988,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKi-gd-vKg">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -11008,7 +11019,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqs-L5-dXT">
-                                <rect key="frame" x="106.5" y="355.5" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="355.5" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -11947,6 +11958,9 @@
                                 <state key="normal" title="Next Prayer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JgP-BZ-pGk" kind="show" id="qL1-aO-YJg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-8R-8iB">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
@@ -11964,7 +11978,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90S-6E-xP7">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -13139,7 +13153,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S9-nK-MiM">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -14098,7 +14112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqP-eh-he3">
-                                <rect key="frame" x="106.5" y="355.5" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="355.5" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -15201,7 +15215,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdo-As-RcS">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -16233,7 +16247,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xt5-H1-dfD">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -17171,6 +17185,9 @@
                                 <state key="normal" title="Next Prayer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JgP-BZ-pGk" kind="show" id="PEi-4F-Uhi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dK-qD-H2q">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
@@ -17188,7 +17205,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mey-ex-aFg">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -17243,6 +17260,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJd-Vj-6nR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="55870" y="806"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gwX-h1-2RH">
+            <objects>
+                <viewController id="JgP-BZ-pGk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g8n-Gf-XCg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-Nh-iIs">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="63e-3v-CBj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gd5-8z-rrj" kind="show" id="4xa-Md-RkF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hail Holy Queen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPA-6E-7ts">
+                                <rect key="frame" x="20" y="39" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="k4y-Qe-BvW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fTz-OO-eXg">
+                                <rect key="frame" x="16" y="109" width="343" height="272"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="fIo-ha-uuc"/>
+                                    <constraint firstAttribute="width" constant="343" id="uCb-uI-W4j"/>
+                                </constraints>
+                                <string key="text">Hail, holy Queen, Mother of mercy, Hail our life, our sweetness, and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this vally of tears. Turn then, O most gracious advocate, thine eyes of mercy towrd us, and after this our exile, show on to us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V. Pray for us, holy Mother of God." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEK-ta-axF">
+                                <rect key="frame" x="20" y="404" width="335" height="25"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R. That we may be made worthy of the promises of Christ." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiG-O3-tFf">
+                                <rect key="frame" x="20" y="439" width="335" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="b7B-Qa-P9E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="oiG-O3-tFf" firstAttribute="leading" secondItem="WPf-i2-OqP" secondAttribute="leading" constant="20" id="5tB-72-65O"/>
+                            <constraint firstItem="ih5-Nh-iIs" firstAttribute="trailing" secondItem="WPf-i2-OqP" secondAttribute="trailing" id="7fk-lj-pHZ"/>
+                            <constraint firstItem="ih5-Nh-iIs" firstAttribute="bottom" secondItem="WPf-i2-OqP" secondAttribute="bottom" id="CS4-ap-mqF"/>
+                            <constraint firstItem="WPf-i2-OqP" firstAttribute="trailing" secondItem="oiG-O3-tFf" secondAttribute="trailing" constant="20" id="HBl-ND-mR2"/>
+                            <constraint firstItem="fTz-OO-eXg" firstAttribute="top" secondItem="JPA-6E-7ts" secondAttribute="bottom" constant="30" id="Lfg-zn-9HX"/>
+                            <constraint firstItem="fTz-OO-eXg" firstAttribute="centerX" secondItem="g8n-Gf-XCg" secondAttribute="centerX" id="QQX-Ol-KR9"/>
+                            <constraint firstItem="oiG-O3-tFf" firstAttribute="top" secondItem="dEK-ta-axF" secondAttribute="bottom" constant="10" id="VcO-ct-hUT"/>
+                            <constraint firstItem="WPf-i2-OqP" firstAttribute="trailing" secondItem="JPA-6E-7ts" secondAttribute="trailing" constant="20" id="Zpb-bI-em0"/>
+                            <constraint firstItem="dEK-ta-axF" firstAttribute="top" secondItem="fTz-OO-eXg" secondAttribute="bottom" constant="23" id="aQK-VR-pM7"/>
+                            <constraint firstItem="JPA-6E-7ts" firstAttribute="top" secondItem="WPf-i2-OqP" secondAttribute="top" constant="39" id="abK-41-duh"/>
+                            <constraint firstItem="ih5-Nh-iIs" firstAttribute="leading" secondItem="WPf-i2-OqP" secondAttribute="leading" id="drj-DH-Iwt"/>
+                            <constraint firstItem="dEK-ta-axF" firstAttribute="leading" secondItem="WPf-i2-OqP" secondAttribute="leading" constant="20" id="jHD-ov-ucr"/>
+                            <constraint firstItem="JPA-6E-7ts" firstAttribute="leading" secondItem="WPf-i2-OqP" secondAttribute="leading" constant="20" id="mia-TJ-btD"/>
+                            <constraint firstItem="WPf-i2-OqP" firstAttribute="trailing" secondItem="dEK-ta-axF" secondAttribute="trailing" constant="20" id="ztt-o2-e1t"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WPf-i2-OqP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Bl-Jv-psm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3f-vY-4Z7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56860" y="517.6911544227886"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GiR-FD-Itm">
@@ -18291,7 +18392,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcz-sG-5Fw">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -19250,7 +19351,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgF-Mt-B29">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -20354,7 +20455,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X28-b3-IWe">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -21385,7 +21486,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzv-1P-9Ao">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -22323,6 +22424,9 @@
                                 <state key="normal" title="Next Prayer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="JgP-BZ-pGk" kind="show" id="N8M-wN-6mP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlY-dQ-3T8">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
@@ -22340,7 +22444,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatima Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dg-Q3-dxM">
-                                <rect key="frame" x="106.5" y="316" width="162.5" height="35"/>
+                                <rect key="frame" x="106" y="316" width="163" height="35"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -22468,7 +22572,276 @@
             </objects>
             <point key="canvasLocation" x="52895" y="1485"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="yU3-7o-tze">
+            <objects>
+                <viewController id="Gd5-8z-rrj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7N2-Bv-pQV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLh-fF-Ym5">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ZmG-Um-eMM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZHm-bd-eSB" kind="show" id="6SF-rt-p8o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let Us Pray" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTc-M3-ynt">
+                                <rect key="frame" x="20" y="39" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UCr-ez-6Vd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qMe-eM-x7b">
+                                <rect key="frame" x="16" y="187.5" width="343" height="272"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="aOC-al-aJs"/>
+                                    <constraint firstAttribute="width" constant="343" id="jCC-nL-zV8"/>
+                                </constraints>
+                                <string key="text">O God, whose only begotton Son, by his life, death and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech thee, that by meditation upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may imitate what the contain and obtain wht they promise through the same Christ, our Lord. Amen</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qMe-eM-x7b" firstAttribute="centerX" secondItem="7N2-Bv-pQV" secondAttribute="centerX" id="3bT-0d-m6i"/>
+                            <constraint firstItem="iLh-fF-Ym5" firstAttribute="trailing" secondItem="Fx3-CT-KKg" secondAttribute="trailing" id="EfM-BR-vS7"/>
+                            <constraint firstItem="iLh-fF-Ym5" firstAttribute="leading" secondItem="Fx3-CT-KKg" secondAttribute="leading" id="I86-tc-NyE"/>
+                            <constraint firstItem="iLh-fF-Ym5" firstAttribute="bottom" secondItem="Fx3-CT-KKg" secondAttribute="bottom" id="T5x-oU-MP1"/>
+                            <constraint firstItem="Fx3-CT-KKg" firstAttribute="trailing" secondItem="cTc-M3-ynt" secondAttribute="trailing" constant="20" id="WYi-pw-Wui"/>
+                            <constraint firstItem="cTc-M3-ynt" firstAttribute="top" secondItem="Fx3-CT-KKg" secondAttribute="top" constant="39" id="Y0I-gl-wDY"/>
+                            <constraint firstItem="cTc-M3-ynt" firstAttribute="leading" secondItem="Fx3-CT-KKg" secondAttribute="leading" constant="20" id="qJV-Gf-tOt"/>
+                            <constraint firstItem="qMe-eM-x7b" firstAttribute="centerY" secondItem="7N2-Bv-pQV" secondAttribute="centerY" id="zRX-tS-Nui"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fx3-CT-KKg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yfL-uo-Kkx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTE-UD-XSR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="57574" y="518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zLW-tK-ox1">
+            <objects>
+                <viewController id="ZHm-bd-eSB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X38-U6-tVd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlX-vg-ZYi">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="wug-S3-2Js"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yty-Bw-edE" kind="show" id="gXJ-4g-VO3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAG-8L-sTY">
+                                <rect key="frame" x="20" y="39" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rMM-vL-u6n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="30p-ku-n1I">
+                                <rect key="frame" x="16" y="88.5" width="343" height="470"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="6Xf-op-EKS"/>
+                                    <constraint firstAttribute="height" constant="470" id="hov-jS-YxA"/>
+                                </constraints>
+                                <mutableString key="text">O Mary, you always shine on our path as a sign of salvation and of hope. We entrust ourselves to you, Health of the Sick, who at the cross took part in Jesus’ pain, keeping your faith firm.
+You, Salvation of the Roman People, know what we need, and we are sure you will provide so that, as in Cana of Galilee, we may return to joy and to feasting after this time of trial.
+Help us, Mother of Divine Love,
+to conform to the will of the Father and to do as we are told by Jesus, who has taken upon himself our sufferings and carried our sorrows to lead us, through the cross, to the joy of the resurrection. Amen.
+Under your protection, we seek refuge, Holy Mother of God. Do not disdain the entreaties of we who are in trial, but deliver us from every danger, O glorious and blessed Virgin.
+Our Lady, Help of Christians, pray for us!</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="rlX-vg-ZYi" firstAttribute="bottom" secondItem="SyA-SC-I5M" secondAttribute="bottom" id="3Pu-5U-sdS"/>
+                            <constraint firstItem="rlX-vg-ZYi" firstAttribute="leading" secondItem="SyA-SC-I5M" secondAttribute="leading" id="BZG-Wn-pZF"/>
+                            <constraint firstItem="30p-ku-n1I" firstAttribute="centerX" secondItem="X38-U6-tVd" secondAttribute="centerX" id="D7B-5B-g6N"/>
+                            <constraint firstItem="30p-ku-n1I" firstAttribute="centerY" secondItem="X38-U6-tVd" secondAttribute="centerY" id="FAb-ZM-zkw"/>
+                            <constraint firstItem="SyA-SC-I5M" firstAttribute="trailing" secondItem="RAG-8L-sTY" secondAttribute="trailing" constant="20" id="QPE-MF-LQd"/>
+                            <constraint firstItem="RAG-8L-sTY" firstAttribute="leading" secondItem="SyA-SC-I5M" secondAttribute="leading" constant="20" id="abc-vD-J2V"/>
+                            <constraint firstItem="rlX-vg-ZYi" firstAttribute="trailing" secondItem="SyA-SC-I5M" secondAttribute="trailing" id="ci3-G0-M9m"/>
+                            <constraint firstItem="RAG-8L-sTY" firstAttribute="top" secondItem="SyA-SC-I5M" secondAttribute="top" constant="39" id="ey6-wi-VSs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SyA-SC-I5M"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g6b-Od-yfC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jse-7f-7wD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58264.800000000003" y="517.6911544227886"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jlc-PP-pbK">
+            <objects>
+                <viewController id="Yty-Bw-edE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mub-XF-jKT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79w-WK-6SD">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NG3-ko-bOH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zKa-nB-WU8" kind="show" id="Lg8-ct-rpH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oratio Imperata" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAw-v4-tpw">
+                                <rect key="frame" x="20" y="20" width="335" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="aMZ-Rw-5YY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HmK-tJ-vEf">
+                                <rect key="frame" x="16" y="55" width="343" height="510"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="510" id="HiQ-ju-zq4"/>
+                                    <constraint firstAttribute="width" constant="343" id="Vgp-s7-hAp"/>
+                                </constraints>
+                                <mutableString key="text">God our Father, we come to you in our need to ask your protection against the COVID 19 that has disturbed and even claimed lives.
+We pray to you that you guide the people tasked to find cures for this disease and to stem its transmission. Protect the medical experts that they may minister to the sick with competence and compassion.
+We pray for those afflicted. May they be restored to health soon. Protect those who care for them. Grant eternal rest to those who have died.
+Give us the grace in this trying time to work for the good of all and to help those in need. We implore you to stop the spread of this virus and to save us from our fears.
+Grant all these through our Lord Jesus Christ your Son who lives and reigns with you, in the unity of the Holy  Spirit, One God, forever and ever. Amen.
+We fly to Your protection, oh Holy Mother of God. Do not despise our petition in our necessities, but deliver us always from all dangers, oh glorious and blessed Virgin. Amen.
+Our Lady , health of the sick, pray for us.
+St. Raphael the Archangel, pray for us.
+St. Rock, pray for us.
+St. Lorenzo Ruiz, pray for us.
+St. Pedro Calungzod, pray for us.</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13.5"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="79w-WK-6SD" firstAttribute="leading" secondItem="D07-61-pqM" secondAttribute="leading" id="EFS-Zr-oAf"/>
+                            <constraint firstItem="TAw-v4-tpw" firstAttribute="top" secondItem="D07-61-pqM" secondAttribute="top" constant="20" id="IBe-DY-xuB"/>
+                            <constraint firstItem="TAw-v4-tpw" firstAttribute="leading" secondItem="D07-61-pqM" secondAttribute="leading" constant="20" id="KB1-Rc-cXX"/>
+                            <constraint firstItem="HmK-tJ-vEf" firstAttribute="centerX" secondItem="mub-XF-jKT" secondAttribute="centerX" id="KOg-7M-qyN"/>
+                            <constraint firstItem="HmK-tJ-vEf" firstAttribute="top" secondItem="TAw-v4-tpw" secondAttribute="bottom" id="Xdq-ky-8N6"/>
+                            <constraint firstItem="D07-61-pqM" firstAttribute="trailing" secondItem="TAw-v4-tpw" secondAttribute="trailing" constant="20" id="bVk-u2-ZvA"/>
+                            <constraint firstItem="79w-WK-6SD" firstAttribute="bottom" secondItem="D07-61-pqM" secondAttribute="bottom" id="euk-VW-s5E"/>
+                            <constraint firstItem="79w-WK-6SD" firstAttribute="trailing" secondItem="D07-61-pqM" secondAttribute="trailing" id="wtt-Lp-kvx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="D07-61-pqM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Bj-60-L0F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yq-FQ-SoI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58965.599999999999" y="517.6911544227886"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mW9-bJ-KWC">
+            <objects>
+                <viewController id="zKa-nB-WU8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QbL-mA-6DA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDE-q8-rQG">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="MS1-q1-NnB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Back to Beginning">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="S2N-07-9iZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign of the Cross" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXJ-pX-kZi">
+                                <rect key="frame" x="20" y="39" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dq6-Fj-LUi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="In the name of the Father, and of the Son, and of the Holy Spirit. Amen." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VCj-Vl-KwZ">
+                                <rect key="frame" x="16" y="284.5" width="343" height="78"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="G4U-ge-rm3"/>
+                                    <constraint firstAttribute="height" constant="78" id="wed-Ww-r5v"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SXJ-pX-kZi" firstAttribute="leading" secondItem="AxD-Vy-q2E" secondAttribute="leading" constant="20" id="DxS-aM-QaW"/>
+                            <constraint firstItem="SXJ-pX-kZi" firstAttribute="top" secondItem="AxD-Vy-q2E" secondAttribute="top" constant="39" id="JSd-N4-nK1"/>
+                            <constraint firstItem="AxD-Vy-q2E" firstAttribute="trailing" secondItem="SXJ-pX-kZi" secondAttribute="trailing" constant="20" id="O4h-b2-tG3"/>
+                            <constraint firstItem="HDE-q8-rQG" firstAttribute="leading" secondItem="AxD-Vy-q2E" secondAttribute="leading" id="RkG-zR-8cn"/>
+                            <constraint firstItem="VCj-Vl-KwZ" firstAttribute="centerY" secondItem="QbL-mA-6DA" secondAttribute="centerY" id="XTk-Pz-9ka"/>
+                            <constraint firstItem="VCj-Vl-KwZ" firstAttribute="centerX" secondItem="QbL-mA-6DA" secondAttribute="centerX" id="YC4-Tv-4u6"/>
+                            <constraint firstItem="HDE-q8-rQG" firstAttribute="bottom" secondItem="AxD-Vy-q2E" secondAttribute="bottom" id="n7q-Lt-neo"/>
+                            <constraint firstItem="HDE-q8-rQG" firstAttribute="trailing" secondItem="AxD-Vy-q2E" secondAttribute="trailing" id="yaP-j8-fdK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AxD-Vy-q2E"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DMd-I3-IS2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJc-UH-kAr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59720.800000000003" y="517.6911544227886"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qL1-aO-YJg"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="2ndmysteryoflight" width="132.5" height="200"/>
         <image name="3rdMysteryOfLight" width="341" height="383"/>
