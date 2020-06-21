@@ -202,7 +202,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="VQD-y1-Og8"/>
                                 </constraints>
-                                <mutableString key="text">I believe in God, the Father almight, creator of heaven and earth. I believe in Jesus Christ, his only Son, our Lord. He was conceived by the power of the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died and was buried. On the third day He rose again. He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.</mutableString>
+                                <string key="text">I believe in God, the Father almight, creator of heaven and earth. I believe in Jesus Christ, his only Son, our Lord. He was conceived by the power of the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died and was buried. On the third day He rose again. He ascended into heaven, and is seated at the right hand of the Father. He will come again to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -984,7 +984,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="155" id="5Ju-JE-Bj1"/>
                                 </constraints>
-                                <string key="text">Hail Mary, full of grace, the Lord is with thee; blessed art thou among women; and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</string>
+                                <string key="text">Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now and ever shall be, world without end. Amen.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1686,7 +1686,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="155" id="qf7-kp-HbZ"/>
                                 </constraints>
-                                <string key="text">Hail Mary, full of grace, the Lord is with thee; blessed art thou among women; and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</string>
+                                <string key="text">Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now and ever shall be, world without end. Amen.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1759,7 +1759,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="155" id="b8x-nE-ahv"/>
                                 </constraints>
-                                <string key="text">Hail Mary, full of grace, the Lord is with thee; blessed art thou among women; and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</string>
+                                <string key="text">Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now and ever shall be, world without end. Amen.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1832,7 +1832,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="155" id="6Bw-84-KTT"/>
                                 </constraints>
-                                <string key="text">Hail Mary, full of grace, the Lord is with thee; blessed art thou among women; and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</string>
+                                <string key="text">Glory be to the Father, and to the Son, and to the Holy Spirit, as it was in the beginning, is now and ever shall be, world without end. Amen.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -15274,7 +15274,6 @@
         <!--View Controller-->
         <scene sceneID="Wtx-dG-oGq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Pot-mi-8Qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="3CL-DG-ETh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Lg-lf-dCK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15344,13 +15343,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="2eB-uk-Ya9"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pot-mi-8Qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36321" y="805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Eb7-fp-0E0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vet-ma-DgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="luB-ER-u6F" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Oo-gh-6S8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15413,13 +15412,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="8qG-nk-tJV"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vet-ma-DgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="37047" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="D9m-Vt-XgG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="97S-nJ-NCJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="4ju-J2-T2G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vKu-Pb-Jme">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15485,13 +15484,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="CKn-6G-gtL"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97S-nJ-NCJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="37770" y="805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kdf-fd-Teb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9KW-rC-KBN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="ydQ-xM-juR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iM6-FT-Asn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15557,13 +15556,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="If3-Ti-pF9"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9KW-rC-KBN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="38490" y="805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vy2-IM-Nan">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PRN-Lw-fey" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="hy4-Mr-0nB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sc6-B9-dMp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15629,13 +15628,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="z76-Cc-baV"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PRN-Lw-fey" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="39170" y="805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UVe-Fm-FaW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WwV-50-pSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="04F-lY-g3h" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3nG-zV-zlA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15701,13 +15700,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="g0S-Lk-9kA"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WwV-50-pSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="39841" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="btQ-Qm-dD0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fbt-R5-h3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="NHu-3A-3NG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8iM-xT-GCl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15773,13 +15772,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="joR-c2-1gf"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbt-R5-h3w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="40591" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dp4-UL-VZP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v06-RJ-DXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ier-N4-4Z9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bTx-80-5cm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15845,13 +15844,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="xfA-Sd-bPM"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v06-RJ-DXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="41319" y="807"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KxV-Ds-ZDJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jkY-ee-2lL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="pCu-y1-MEU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2bg-0S-mBJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15917,13 +15916,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="PJU-aG-Fb6"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jkY-ee-2lL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42009" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="haL-tV-DGZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifx-F3-klj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="nCD-6D-AlQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1qP-UP-ICT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -15989,13 +15988,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="pdH-ic-mpW"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifx-F3-klj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42724" y="807"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cCL-vh-yHG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BNG-0t-v62" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="xJ6-5u-IHQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jdO-E0-jhW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -16061,13 +16060,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="dz1-Vo-nCw"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BNG-0t-v62" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44145" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="46M-QI-22Z">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VYH-4Z-39e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="8OM-ZM-Uyg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hda-rY-Y4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -16133,13 +16132,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="h92-WE-XL1"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYH-4Z-39e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="43428" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5Kz-fC-CRp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HQw-nI-XcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="D7K-jb-Rdf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dJM-Nx-uAc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -16205,13 +16204,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="69L-BR-umR"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQw-nI-XcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44894" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="50o-wB-3HU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g9z-8K-r4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Czd-C5-BeM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xuq-qn-hfh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -16299,6 +16298,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ehb-UD-7bg"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9z-8K-r4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="45646" y="806"/>
         </scene>
@@ -17299,7 +17299,7 @@
                                     <constraint firstAttribute="height" constant="272" id="fIo-ha-uuc"/>
                                     <constraint firstAttribute="width" constant="343" id="uCb-uI-W4j"/>
                                 </constraints>
-                                <string key="text">Hail, holy Queen, Mother of mercy, Hail our life, our sweetness, and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this vally of tears. Turn then, O most gracious advocate, thine eyes of mercy towrd us, and after this our exile, show on to us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary.</string>
+                                <string key="text">Hail, holy Queen, Mother of mercy, Hail our life, our sweetness, and our hope. To you do we cry, poor banished children of Eve; to you do we send up our sighs, mourning and weeping in this valley of tears. Turn then, O most gracious advocate, thine eyes of mercy towards us, and after this our exile, show on to us the blessed fruit of your womb, Jesus. O clement, O loving, O sweet Virgin Mary.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -20419,7 +20419,6 @@
         <!--View Controller-->
         <scene sceneID="AWg-Na-Dta">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iuX-m6-pbk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="dkj-mP-7iW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vH8-Pr-PUc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20507,13 +20506,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="dpR-7d-V7Z"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuX-m6-pbk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="35580" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HD0-pQ-p6X">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RK4-Xi-g90" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="SYZ-f0-bIM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y7x-tZ-qsQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20583,13 +20582,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="H9r-MQ-xfw"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RK4-Xi-g90" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36321" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="04T-eP-7oK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LAe-1i-yMD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="4hs-WL-KuC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xnY-Sn-1Xo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20652,13 +20651,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="bDH-3t-htE"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAe-1i-yMD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="37047" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q3z-Fm-nCN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ojI-35-5h3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="9Eh-Z8-TwA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wcz-Gb-7hf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20724,13 +20723,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="9ij-8y-8dg"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ojI-35-5h3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="37770" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="koO-0G-HTD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KHD-Yd-G2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="HAA-qr-9fC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EHD-Yg-SQc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20796,13 +20795,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="27o-EB-wfV"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KHD-Yd-G2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="38490" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TMO-hQ-paT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fva-FV-pzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="y9m-XJ-InY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2B-Tk-YIJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20868,13 +20867,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="v4m-BI-hu3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fva-FV-pzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="39170" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y36-3C-wJK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wPd-vE-kNh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="hZi-bc-SEB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="usy-Zc-PBT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -20940,13 +20939,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="eDN-Q3-uTC"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPd-vE-kNh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="39841" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CB8-LK-4jO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HQ2-hi-i9Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="CRq-o3-NR1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bc0-pj-VNZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21012,13 +21011,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="zNA-Gh-EZF"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQ2-hi-i9Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="40591" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FvC-dI-XSe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0K-ga-1gR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Sp5-zN-6PR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p4t-LG-F5q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21084,13 +21083,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="RaT-VB-3nG"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0K-ga-1gR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="41319" y="1486"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mgD-di-AM8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a89-sw-TQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="ukI-S2-uyj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xfi-hR-yf3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21156,13 +21155,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="AdM-aj-g3x"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a89-sw-TQt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42009" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U4R-MS-Yri">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-QM-WxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="rth-9t-Xvs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5T2-nQ-NkO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21228,13 +21227,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="i7b-Q9-gVd"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRQ-QM-WxC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42724" y="1486"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H4t-2h-X9P">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q6x-oI-wHC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="fSK-zw-X0R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="J5I-OY-daV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21300,13 +21299,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="CTl-NE-ap3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q6x-oI-wHC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44145" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BqQ-Qv-eez">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yhU-x9-jqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="dGb-jr-l2D" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EpO-Ie-7eG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21372,13 +21371,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="Wst-Qs-u3N"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yhU-x9-jqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="43428" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kDv-Rh-iJ8">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsI-FV-p33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="EaA-8f-5cz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bhT-2L-ikl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21444,13 +21443,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="6V9-wp-JyT"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZsI-FV-p33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44894" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oDH-hq-tVa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F1r-km-jSH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="uv8-CV-fTi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="itn-hD-aqa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
@@ -21538,6 +21537,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="SGt-zf-x4A"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1r-km-jSH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="45646" y="1485"/>
         </scene>
@@ -22650,11 +22650,11 @@
                                     <constraint firstAttribute="height" constant="80" id="wug-S3-2Js"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Next Prayer">
+                                <state key="normal" title="Continue">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Yty-Bw-edE" kind="show" id="gXJ-4g-VO3"/>
+                                    <segue destination="TSC-BT-qXt" kind="show" id="BBX-sF-WMI"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAG-8L-sTY">
@@ -22667,20 +22667,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="30p-ku-n1I">
-                                <rect key="frame" x="16" y="88.5" width="343" height="470"/>
+                                <rect key="frame" x="16" y="186" width="343" height="275"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="6Xf-op-EKS"/>
-                                    <constraint firstAttribute="height" constant="470" id="hov-jS-YxA"/>
+                                    <constraint firstAttribute="height" constant="275" id="hov-jS-YxA"/>
                                 </constraints>
-                                <mutableString key="text">O Mary, you always shine on our path as a sign of salvation and of hope. We entrust ourselves to you, Health of the Sick, who at the cross took part in Jesus’ pain, keeping your faith firm.
+                                <string key="text">O Mary, you always shine on our path as a sign of salvation and of hope. We entrust ourselves to you, Health of the Sick, who at the cross took part in Jesus’ pain, keeping your faith firm.
 You, Salvation of the Roman People, know what we need, and we are sure you will provide so that, as in Cana of Galilee, we may return to joy and to feasting after this time of trial.
-Help us, Mother of Divine Love,
-to conform to the will of the Father and to do as we are told by Jesus, who has taken upon himself our sufferings and carried our sorrows to lead us, through the cross, to the joy of the resurrection. Amen.
-Under your protection, we seek refuge, Holy Mother of God. Do not disdain the entreaties of we who are in trial, but deliver us from every danger, O glorious and blessed Virgin.
-Our Lady, Help of Christians, pray for us!</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -22718,11 +22715,11 @@ Our Lady, Help of Christians, pray for us!</mutableString>
                                     <constraint firstAttribute="height" constant="80" id="NG3-ko-bOH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Next Prayer">
+                                <state key="normal" title="Continue">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="zKa-nB-WU8" kind="show" id="Lg8-ct-rpH"/>
+                                    <segue destination="cdK-P2-zMW" kind="show" id="bnP-Fp-8tg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oratio Imperata" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAw-v4-tpw">
@@ -22735,25 +22732,19 @@ Our Lady, Help of Christians, pray for us!</mutableString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HmK-tJ-vEf">
-                                <rect key="frame" x="16" y="55" width="343" height="510"/>
+                                <rect key="frame" x="16" y="55" width="343" height="500"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="510" id="HiQ-ju-zq4"/>
+                                    <constraint firstAttribute="height" constant="500" id="HiQ-ju-zq4"/>
                                     <constraint firstAttribute="width" constant="343" id="Vgp-s7-hAp"/>
                                 </constraints>
                                 <mutableString key="text">God our Father, we come to you in our need to ask your protection against the COVID 19 that has disturbed and even claimed lives.
 We pray to you that you guide the people tasked to find cures for this disease and to stem its transmission. Protect the medical experts that they may minister to the sick with competence and compassion.
 We pray for those afflicted. May they be restored to health soon. Protect those who care for them. Grant eternal rest to those who have died.
 Give us the grace in this trying time to work for the good of all and to help those in need. We implore you to stop the spread of this virus and to save us from our fears.
-Grant all these through our Lord Jesus Christ your Son who lives and reigns with you, in the unity of the Holy  Spirit, One God, forever and ever. Amen.
-We fly to Your protection, oh Holy Mother of God. Do not despise our petition in our necessities, but deliver us always from all dangers, oh glorious and blessed Virgin. Amen.
-Our Lady , health of the sick, pray for us.
-St. Raphael the Archangel, pray for us.
-St. Rock, pray for us.
-St. Lorenzo Ruiz, pray for us.
-St. Pedro Calungzod, pray for us.</mutableString>
+</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -22774,7 +22765,7 @@ St. Pedro Calungzod, pray for us.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yq-FQ-SoI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58965.599999999999" y="517.6911544227886"/>
+            <point key="canvasLocation" x="59767" y="518"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mW9-bJ-KWC">
@@ -22836,11 +22827,146 @@ St. Pedro Calungzod, pray for us.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJc-UH-kAr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59720.800000000003" y="517.6911544227886"/>
+            <point key="canvasLocation" x="61343" y="518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TZ3-ZB-ZKx">
+            <objects>
+                <viewController id="TSC-BT-qXt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8sZ-8D-7eN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qit-fU-UT7">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="dxf-mq-UAi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Yty-Bw-edE" kind="show" id="Fed-gk-jop"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary Cont." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mr-5U-9oE">
+                                <rect key="frame" x="20" y="39" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Fan-z2-3hR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62E-R2-4Go">
+                                <rect key="frame" x="16" y="148.5" width="343" height="350"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="KT5-If-gAr"/>
+                                    <constraint firstAttribute="width" constant="343" id="Mga-xP-ysZ"/>
+                                </constraints>
+                                <string key="text">Help us, Mother of Divine Love,
+to conform to the will of the Father and to do as we are told by Jesus, who has taken upon himself our sufferings and carried our sorrows to lead us, through the cross, to the joy of the resurrection. Amen.
+Under your protection, we seek refuge, Holy Mother of God. Do not disdain the entreaties of we who are in trial, but deliver us from every danger, O glorious and blessed Virgin.
+Our Lady, Help of Christians, pray for us!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qit-fU-UT7" firstAttribute="bottom" secondItem="6Fw-27-Exi" secondAttribute="bottom" id="AcR-6e-cuO"/>
+                            <constraint firstItem="qit-fU-UT7" firstAttribute="trailing" secondItem="6Fw-27-Exi" secondAttribute="trailing" id="Hcx-wz-3LC"/>
+                            <constraint firstItem="3mr-5U-9oE" firstAttribute="leading" secondItem="6Fw-27-Exi" secondAttribute="leading" constant="20" id="Pxt-W0-xPA"/>
+                            <constraint firstItem="qit-fU-UT7" firstAttribute="leading" secondItem="6Fw-27-Exi" secondAttribute="leading" id="QcZ-1A-EWw"/>
+                            <constraint firstItem="3mr-5U-9oE" firstAttribute="top" secondItem="6Fw-27-Exi" secondAttribute="top" constant="39" id="bZK-Vf-Cac"/>
+                            <constraint firstItem="62E-R2-4Go" firstAttribute="centerX" secondItem="8sZ-8D-7eN" secondAttribute="centerX" id="i1A-ZA-yXL"/>
+                            <constraint firstItem="62E-R2-4Go" firstAttribute="centerY" secondItem="8sZ-8D-7eN" secondAttribute="centerY" id="peV-4u-NgO"/>
+                            <constraint firstItem="6Fw-27-Exi" firstAttribute="trailing" secondItem="3mr-5U-9oE" secondAttribute="trailing" constant="20" id="s5J-8e-0uo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Fw-27-Exi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2mt-ms-dce"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aUE-f9-yx1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59002" y="518"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j5v-Sk-R31">
+            <objects>
+                <viewController id="cdK-P2-zMW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0NS-tX-bz3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHK-QV-S8W">
+                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ezJ-QR-0kw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Next Prayer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zKa-nB-WU8" kind="show" id="IiL-qe-UAO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oratio Imperata Cont." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buo-Ua-W5W">
+                                <rect key="frame" x="20" y="20" width="335" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="zgX-qJ-KN4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6ux-ha-x0m">
+                                <rect key="frame" x="16" y="148.5" width="343" height="350"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="CaL-KX-d6s"/>
+                                    <constraint firstAttribute="width" constant="343" id="JCs-4m-CU9"/>
+                                </constraints>
+                                <string key="text">Grant all these through our Lord Jesus Christ your Son who lives and reigns with you, in the unity of the Holy  Spirit, One God, forever and ever. Amen.
+We fly to Your protection, oh Holy Mother of God. Do not despise our petition in our necessities, but deliver us always from all dangers, oh glorious and blessed Virgin. Amen.
+Our Lady , health of the sick, pray for us.
+St. Raphael the Archangel, pray for us.
+St. Rock, pray for us.
+St. Lorenzo Ruiz, pray for us.
+St. Pedro Calungzod, pray for us.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="buo-Ua-W5W" firstAttribute="top" secondItem="Pqn-GA-faA" secondAttribute="top" constant="20" id="8I7-V5-185"/>
+                            <constraint firstItem="eHK-QV-S8W" firstAttribute="trailing" secondItem="Pqn-GA-faA" secondAttribute="trailing" id="KVf-MT-VBC"/>
+                            <constraint firstItem="buo-Ua-W5W" firstAttribute="leading" secondItem="Pqn-GA-faA" secondAttribute="leading" constant="20" id="MV4-km-2WE"/>
+                            <constraint firstItem="eHK-QV-S8W" firstAttribute="leading" secondItem="Pqn-GA-faA" secondAttribute="leading" id="O46-7o-CDp"/>
+                            <constraint firstItem="6ux-ha-x0m" firstAttribute="centerX" secondItem="0NS-tX-bz3" secondAttribute="centerX" id="RCr-Qe-b66"/>
+                            <constraint firstItem="eHK-QV-S8W" firstAttribute="bottom" secondItem="Pqn-GA-faA" secondAttribute="bottom" id="SV7-rf-8lP"/>
+                            <constraint firstItem="6ux-ha-x0m" firstAttribute="centerY" secondItem="0NS-tX-bz3" secondAttribute="centerY" id="dgn-uS-fyO"/>
+                            <constraint firstItem="Pqn-GA-faA" firstAttribute="trailing" secondItem="buo-Ua-W5W" secondAttribute="trailing" constant="20" id="vuq-0O-VqS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pqn-GA-faA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="frA-8U-NgR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XoC-oT-lTU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60543" y="518"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qL1-aO-YJg"/>
+        <segue reference="R10-Xb-T8m"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2ndmysteryoflight" width="132.5" height="200"/>
