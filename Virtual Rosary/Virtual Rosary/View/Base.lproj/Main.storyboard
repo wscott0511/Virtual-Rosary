@@ -187,8 +187,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostels' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-X3-fdm">
-                                <rect key="frame" x="77.5" y="104" width="220" height="34.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostles' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fh5-X3-fdm">
+                                <rect key="frame" x="77.5" y="104" width="220" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="xET-vn-mUJ"/>
                                 </constraints>
@@ -196,8 +196,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-Dh-47Z">
-                                <rect key="frame" x="20" y="146" width="335" height="411"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-Dh-47Z">
+                                <rect key="frame" x="20" y="146.5" width="335" height="411"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="VQD-y1-Og8"/>
@@ -258,7 +258,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostels' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOB-2K-ByS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostles' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOB-2K-ByS">
                                 <rect key="frame" x="77.5" y="104" width="220" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="8pR-1e-g6Q"/>
@@ -267,7 +267,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-oP-YjW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PA-oP-YjW">
                                 <rect key="frame" x="20" y="146.5" width="335" height="411"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -329,8 +329,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostels' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cie-cJ-kx6">
-                                <rect key="frame" x="77.5" y="105" width="220" height="34.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostles' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cie-cJ-kx6">
+                                <rect key="frame" x="77.5" y="105" width="220" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="ECd-WS-HZ2"/>
                                 </constraints>
@@ -338,8 +338,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kf1-n1-6o8">
-                                <rect key="frame" x="20" y="147" width="335" height="411"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf1-n1-6o8">
+                                <rect key="frame" x="20" y="147.5" width="335" height="411"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="RU0-ba-Vo9"/>
@@ -400,8 +400,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostels' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-he-xrt">
-                                <rect key="frame" x="77.5" y="105" width="220" height="34.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apostles' Creed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdC-he-xrt">
+                                <rect key="frame" x="77.5" y="105" width="220" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="220" id="JWz-pM-8oJ"/>
                                 </constraints>
@@ -409,8 +409,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sgI-xI-EDU">
-                                <rect key="frame" x="20" y="147" width="335" height="411"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgI-xI-EDU">
+                                <rect key="frame" x="20" y="147.5" width="335" height="411"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="TVc-xg-ati"/>
@@ -22610,7 +22610,7 @@
                                     <constraint firstAttribute="height" constant="272" id="aOC-al-aJs"/>
                                     <constraint firstAttribute="width" constant="343" id="jCC-nL-zV8"/>
                                 </constraints>
-                                <string key="text">O God, whose only begotton Son, by his life, death and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech thee, that by meditation upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may imitate what the contain and obtain wht they promise through the same Christ, our Lord. Amen</string>
+                                <string key="text">O God, whose only begotten Son, by his life, death and resurrection, has purchased for us the rewards of eternal salvation. Grant, we beseech thee, that by meditating upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may imitate what the contain and obtain wht they promise through the same Christ, our Lord. Amen</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -22657,7 +22657,7 @@
                                     <segue destination="TSC-BT-qXt" kind="show" id="BBX-sF-WMI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAG-8L-sTY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary Prayer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAG-8L-sTY">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="rMM-vL-u6n"/>
@@ -22738,11 +22738,11 @@ You, Salvation of the Roman People, know what we need, and we are sure you will 
                                     <constraint firstAttribute="height" constant="500" id="HiQ-ju-zq4"/>
                                     <constraint firstAttribute="width" constant="343" id="Vgp-s7-hAp"/>
                                 </constraints>
-                                <mutableString key="text">God our Father, we come to you in our need to ask your protection against the COVID 19 that has disturbed and even claimed lives.
+                                <string key="text">God our Father, we come to you in our need to ask your protection against the COVID 19 that has disturbed and even claimed lives.
 We pray to you that you guide the people tasked to find cures for this disease and to stem its transmission. Protect the medical experts that they may minister to the sick with competence and compassion.
 We pray for those afflicted. May they be restored to health soon. Protect those who care for them. Grant eternal rest to those who have died.
 Give us the grace in this trying time to work for the good of all and to help those in need. We implore you to stop the spread of this virus and to save us from our fears.
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -22851,7 +22851,7 @@ Give us the grace in this trying time to work for the good of all and to help th
                                     <segue destination="Yty-Bw-edE" kind="show" id="Fed-gk-jop"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary Cont." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mr-5U-9oE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O Mary Prayer Cont." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mr-5U-9oE">
                                 <rect key="frame" x="20" y="39" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Fan-z2-3hR"/>
