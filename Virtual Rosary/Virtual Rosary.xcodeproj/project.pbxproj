@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		94D22DFA2486EB02004E671C /* Virtual Rosary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Rosary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D22DFA2486EB02004E671C /* COVID Rosary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID Rosary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D22DFD2486EB02004E671C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94D22DFF2486EB02004E671C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		94D22E012486EB02004E671C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		94D22DFB2486EB02004E671C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94D22DFA2486EB02004E671C /* Virtual Rosary.app */,
+				94D22DFA2486EB02004E671C /* COVID Rosary.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			);
 			name = "Virtual Rosary";
 			productName = "Virtual Rosary";
-			productReference = 94D22DFA2486EB02004E671C /* Virtual Rosary.app */;
+			productReference = 94D22DFA2486EB02004E671C /* COVID Rosary.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,9 +316,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamRyanScott.Virtual-Rosary";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "COVID Rosary";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,9 +334,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamRyanScott.Virtual-Rosary";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "COVID Rosary";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
