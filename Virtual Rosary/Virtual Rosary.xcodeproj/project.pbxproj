@@ -308,7 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 78977XTL46;
 				INFOPLIST_FILE = "Virtual Rosary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamRyanScott.Virtual-Rosary";
 				PRODUCT_NAME = "COVID Rosary";
+				PROVISIONING_PROFILE_SPECIFIER = "COVID Rosary";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -326,7 +328,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 78977XTL46;
 				INFOPLIST_FILE = "Virtual Rosary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamRyanScott.Virtual-Rosary";
 				PRODUCT_NAME = "COVID Rosary";
+				PROVISIONING_PROFILE_SPECIFIER = "COVID Rosary";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
