@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="COVID_Rosary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Holy_Rosary__Today" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1900,7 +1900,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="QV2-JV-GNQ"/>
                                 </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by coronavirus. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2837,7 +2837,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="jKJ-N3-2Ck"/>
                                 </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the coronavirus. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -3962,7 +3962,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="hc7-ke-5uy"/>
                                 </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from coronavirus. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -4993,7 +4993,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="BPQ-pB-pYJ"/>
                                 </constraints>
-                                <string key="text">For protection on those who are most vulnerable to coronavirus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -7061,7 +7061,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="VCx-Nd-Abg"/>
                                 </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by coronavirus. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -8092,7 +8092,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="J2f-9A-D5u"/>
                                 </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the coronavirus. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -9051,7 +9051,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="uTV-69-ZCD"/>
                                 </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from coronavirus. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -10082,7 +10082,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="1JN-da-7p2"/>
                                 </constraints>
-                                <string key="text">For protection on those who are most vulnerable to coronavirus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -12216,7 +12216,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="TDn-VV-lcP"/>
                                 </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by coronavirus. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -13247,7 +13247,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="lwx-cW-3mw"/>
                                 </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the coronavirus. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -14278,7 +14278,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="ltC-Lc-FQS"/>
                                 </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from coronavirus. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -15309,7 +15309,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="ilY-cS-UMB"/>
                                 </constraints>
-                                <string key="text">For protection on those who are most vulnerable to coronavirus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -17455,7 +17455,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="oxG-zt-0Ah"/>
                                 </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by coronavirus. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -18486,7 +18486,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="hy4-Zg-P1f"/>
                                 </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the coronavirus. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -19517,7 +19517,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="oI8-R8-boL"/>
                                 </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from coronavirus. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -20548,7 +20548,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="bTj-Lz-7S0"/>
                                 </constraints>
-                                <string key="text">For protection on those who are most vulnerable to coronavirus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
+                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
