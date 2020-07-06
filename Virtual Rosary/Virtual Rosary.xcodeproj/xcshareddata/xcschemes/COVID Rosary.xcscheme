@@ -73,7 +73,6 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "COVID Rosary&apos;s"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
