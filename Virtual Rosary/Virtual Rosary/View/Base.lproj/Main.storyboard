@@ -1809,7 +1809,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yRq-YU-reG" kind="show" id="1lO-WP-nUO"/>
+                                    <segue destination="4hy-YQ-v1c" kind="show" id="JwP-RX-Xe8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f17-Oj-yqt">
@@ -1865,75 +1865,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SgA-TM-DSJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6127.1999999999998" y="-556.37181409295351"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="KQ2-0X-UmB">
-            <objects>
-                <viewController id="yRq-YU-reG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Z0x-ii-QkI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k2-cz-uBf">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="5nS-Xg-DuX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="4hy-YQ-v1c" kind="show" id="eeU-Ds-ONd"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7E2-zX-yPY">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oab-mo-ErM">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="QV2-JV-GNQ"/>
-                                </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tw6-HS-7r8">
-                                <rect key="frame" x="88" y="166" width="199" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Tw6-HS-7r8" firstAttribute="centerX" secondItem="Z0x-ii-QkI" secondAttribute="centerX" id="0Fz-MF-ujA"/>
-                            <constraint firstItem="xhd-nw-dlF" firstAttribute="trailing" secondItem="7E2-zX-yPY" secondAttribute="trailing" constant="20" id="1LW-dm-ui7"/>
-                            <constraint firstItem="2k2-cz-uBf" firstAttribute="bottom" secondItem="xhd-nw-dlF" secondAttribute="bottom" id="5d2-ti-f5t"/>
-                            <constraint firstItem="oab-mo-ErM" firstAttribute="centerY" secondItem="Z0x-ii-QkI" secondAttribute="centerY" id="74E-6f-Xv7"/>
-                            <constraint firstItem="oab-mo-ErM" firstAttribute="centerX" secondItem="Z0x-ii-QkI" secondAttribute="centerX" id="BTF-en-Zf5"/>
-                            <constraint firstItem="2k2-cz-uBf" firstAttribute="leading" secondItem="xhd-nw-dlF" secondAttribute="leading" id="DBw-yg-nOK"/>
-                            <constraint firstItem="7E2-zX-yPY" firstAttribute="top" secondItem="xhd-nw-dlF" secondAttribute="top" constant="39" id="ExX-1S-hpQ"/>
-                            <constraint firstItem="xhd-nw-dlF" firstAttribute="trailing" secondItem="oab-mo-ErM" secondAttribute="trailing" constant="16" id="Hoc-Qg-vvJ"/>
-                            <constraint firstItem="7E2-zX-yPY" firstAttribute="leading" secondItem="xhd-nw-dlF" secondAttribute="leading" constant="20" id="OX4-4V-AeR"/>
-                            <constraint firstItem="oab-mo-ErM" firstAttribute="leading" secondItem="xhd-nw-dlF" secondAttribute="leading" constant="16" id="Ooq-Zw-bbe"/>
-                            <constraint firstItem="oab-mo-ErM" firstAttribute="top" secondItem="Tw6-HS-7r8" secondAttribute="bottom" constant="22.5" id="lNM-m1-iiG"/>
-                            <constraint firstItem="2k2-cz-uBf" firstAttribute="trailing" secondItem="xhd-nw-dlF" secondAttribute="trailing" id="y5o-j8-dVi"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="xhd-nw-dlF"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8qX-ZN-wJW"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YDl-Df-VPE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6861.6000000000004" y="-556.37181409295351"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gIF-lX-BCG">
@@ -2746,7 +2677,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6Le-pG-bsZ" kind="show" id="Qta-Ae-ReD"/>
+                                    <segue destination="wTH-Fi-hAn" kind="show" id="t8X-CR-QSk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-wp-ceL">
@@ -2802,75 +2733,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSw-ty-nc8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15841" y="-558"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="u7a-5c-29x">
-            <objects>
-                <viewController id="6Le-pG-bsZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5Gg-yD-apc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfy-Pf-EMP">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="5dL-9t-t9g"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="wTH-Fi-hAn" kind="show" id="s7i-5o-Ehl"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OM5-tG-vUc">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ry3-1P-KHC">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="jKJ-N3-2Ck"/>
-                                </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Second Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUi-yg-5aG">
-                                <rect key="frame" x="71" y="166" width="233" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Nfy-Pf-EMP" firstAttribute="leading" secondItem="3us-9r-GC9" secondAttribute="leading" id="0ii-fl-GE3"/>
-                            <constraint firstItem="sUi-yg-5aG" firstAttribute="centerX" secondItem="5Gg-yD-apc" secondAttribute="centerX" id="CDf-ea-4Yn"/>
-                            <constraint firstItem="Nfy-Pf-EMP" firstAttribute="trailing" secondItem="3us-9r-GC9" secondAttribute="trailing" id="Dtx-9n-hb0"/>
-                            <constraint firstItem="Ry3-1P-KHC" firstAttribute="centerY" secondItem="5Gg-yD-apc" secondAttribute="centerY" id="Ehi-KS-p3l"/>
-                            <constraint firstItem="Ry3-1P-KHC" firstAttribute="top" secondItem="sUi-yg-5aG" secondAttribute="bottom" constant="22.5" id="KH9-L4-JhM"/>
-                            <constraint firstItem="OM5-tG-vUc" firstAttribute="top" secondItem="3us-9r-GC9" secondAttribute="top" constant="39" id="dWq-Yg-qVi"/>
-                            <constraint firstItem="3us-9r-GC9" firstAttribute="trailing" secondItem="OM5-tG-vUc" secondAttribute="trailing" constant="20" id="f3a-Bk-4DU"/>
-                            <constraint firstItem="Ry3-1P-KHC" firstAttribute="leading" secondItem="3us-9r-GC9" secondAttribute="leading" constant="16" id="g7P-M4-7VS"/>
-                            <constraint firstItem="OM5-tG-vUc" firstAttribute="leading" secondItem="3us-9r-GC9" secondAttribute="leading" constant="20" id="g81-sd-CKi"/>
-                            <constraint firstItem="Nfy-Pf-EMP" firstAttribute="bottom" secondItem="3us-9r-GC9" secondAttribute="bottom" id="hKQ-gg-sf9"/>
-                            <constraint firstItem="3us-9r-GC9" firstAttribute="trailing" secondItem="Ry3-1P-KHC" secondAttribute="trailing" constant="16" id="w47-kR-j2N"/>
-                            <constraint firstItem="Ry3-1P-KHC" firstAttribute="centerX" secondItem="5Gg-yD-apc" secondAttribute="centerX" id="wW6-dN-RB4"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="3us-9r-GC9"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="cc4-YN-KIS"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uKH-EI-YPw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16572" y="-556"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hp9-k4-X5h">
@@ -3871,7 +3733,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ect-RN-que" kind="show" id="D7c-1n-KC7"/>
+                                    <segue destination="DXS-CR-40p" kind="show" id="l4c-W8-4ZM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mff-Ha-hYA">
@@ -3927,75 +3789,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJ8-TI-Yzf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="26294" y="-556"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Wqy-lx-qGF">
-            <objects>
-                <viewController id="Ect-RN-que" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qSV-bO-HXN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMR-LM-bjn">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="cTQ-pE-6xq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="DXS-CR-40p" kind="show" id="GFS-ZH-hdz"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3k-mj-zbD">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf0-SI-3P7">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="hc7-ke-5uy"/>
-                                </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Third Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60B-ow-6s8">
-                                <rect key="frame" x="84" y="166" width="207" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Y3k-mj-zbD" firstAttribute="top" secondItem="jrB-1f-I8o" secondAttribute="top" constant="39" id="1cI-VA-5IW"/>
-                            <constraint firstItem="TMR-LM-bjn" firstAttribute="trailing" secondItem="jrB-1f-I8o" secondAttribute="trailing" id="2Sh-iA-yba"/>
-                            <constraint firstItem="xf0-SI-3P7" firstAttribute="centerX" secondItem="qSV-bO-HXN" secondAttribute="centerX" id="Cxy-vx-iPz"/>
-                            <constraint firstItem="jrB-1f-I8o" firstAttribute="trailing" secondItem="Y3k-mj-zbD" secondAttribute="trailing" constant="20" id="LhB-5j-VSX"/>
-                            <constraint firstItem="TMR-LM-bjn" firstAttribute="leading" secondItem="jrB-1f-I8o" secondAttribute="leading" id="Q4p-0n-FD9"/>
-                            <constraint firstItem="xf0-SI-3P7" firstAttribute="leading" secondItem="jrB-1f-I8o" secondAttribute="leading" constant="16" id="WfT-du-GWJ"/>
-                            <constraint firstItem="Y3k-mj-zbD" firstAttribute="leading" secondItem="jrB-1f-I8o" secondAttribute="leading" constant="20" id="dRT-CY-ABv"/>
-                            <constraint firstItem="xf0-SI-3P7" firstAttribute="top" secondItem="60B-ow-6s8" secondAttribute="bottom" constant="22.5" id="jIU-dP-cld"/>
-                            <constraint firstItem="jrB-1f-I8o" firstAttribute="trailing" secondItem="xf0-SI-3P7" secondAttribute="trailing" constant="16" id="jWZ-xA-mN1"/>
-                            <constraint firstItem="xf0-SI-3P7" firstAttribute="centerY" secondItem="qSV-bO-HXN" secondAttribute="centerY" id="jrK-sd-ZhO"/>
-                            <constraint firstItem="60B-ow-6s8" firstAttribute="centerX" secondItem="qSV-bO-HXN" secondAttribute="centerX" id="npH-Sq-63m"/>
-                            <constraint firstItem="TMR-LM-bjn" firstAttribute="bottom" secondItem="jrB-1f-I8o" secondAttribute="bottom" id="rZe-SA-gN7"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="jrB-1f-I8o"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="lpE-hG-ukb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OLx-cG-xka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="27020" y="-558"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9xl-LW-uel">
@@ -4902,7 +4695,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ukh-cZ-Kct" kind="show" id="spj-a4-Flb"/>
+                                    <segue destination="zJf-jh-07f" kind="show" id="6ke-rm-wqi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOg-e6-caC">
@@ -4958,75 +4751,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OkS-5c-7Ca" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36322" y="-558"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="C0Z-21-4ZS">
-            <objects>
-                <viewController id="ukh-cZ-Kct" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZYI-gw-GDS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgg-hS-Tqm">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="pgc-aB-MCz"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="zJf-jh-07f" kind="show" id="ehf-gb-z2l"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fourth Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlt-0G-3hd">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeI-Up-C4s">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="BPQ-pB-pYJ"/>
-                                </constraints>
-                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fourth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e12-mI-My1">
-                                <rect key="frame" x="75" y="166" width="225" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="oeI-Up-C4s" firstAttribute="top" secondItem="e12-mI-My1" secondAttribute="bottom" constant="22.5" id="1Tt-6C-eeq"/>
-                            <constraint firstItem="r8l-Hk-F5b" firstAttribute="trailing" secondItem="oeI-Up-C4s" secondAttribute="trailing" constant="16" id="9ik-C1-PGJ"/>
-                            <constraint firstItem="oeI-Up-C4s" firstAttribute="centerY" secondItem="ZYI-gw-GDS" secondAttribute="centerY" id="B7f-CU-12M"/>
-                            <constraint firstItem="e12-mI-My1" firstAttribute="centerX" secondItem="ZYI-gw-GDS" secondAttribute="centerX" id="PxA-nr-8MP"/>
-                            <constraint firstItem="r8l-Hk-F5b" firstAttribute="trailing" secondItem="Dlt-0G-3hd" secondAttribute="trailing" constant="20" id="QG3-Pi-LBw"/>
-                            <constraint firstItem="Dlt-0G-3hd" firstAttribute="top" secondItem="r8l-Hk-F5b" secondAttribute="top" constant="39" id="QMU-cv-E5A"/>
-                            <constraint firstItem="oeI-Up-C4s" firstAttribute="centerX" secondItem="ZYI-gw-GDS" secondAttribute="centerX" id="QaM-yi-W5K"/>
-                            <constraint firstItem="Dlt-0G-3hd" firstAttribute="leading" secondItem="r8l-Hk-F5b" secondAttribute="leading" constant="20" id="T3Q-bP-9iU"/>
-                            <constraint firstItem="Zgg-hS-Tqm" firstAttribute="bottom" secondItem="r8l-Hk-F5b" secondAttribute="bottom" id="YF6-Tq-Yha"/>
-                            <constraint firstItem="Zgg-hS-Tqm" firstAttribute="leading" secondItem="r8l-Hk-F5b" secondAttribute="leading" id="cbL-hy-mSY"/>
-                            <constraint firstItem="Zgg-hS-Tqm" firstAttribute="trailing" secondItem="r8l-Hk-F5b" secondAttribute="trailing" id="uik-pR-A9B"/>
-                            <constraint firstItem="oeI-Up-C4s" firstAttribute="leading" secondItem="r8l-Hk-F5b" secondAttribute="leading" constant="16" id="vwn-NE-xgG"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="r8l-Hk-F5b"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="pU3-VU-etN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mfa-yP-2dB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37049" y="-556"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hYy-UK-GIb">
@@ -5933,7 +5657,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0RH-9T-wrr" kind="show" id="Qb9-cI-E3K"/>
+                                    <segue destination="KRd-NY-KJe" kind="show" id="LeN-0E-anF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4P-9f-uMd">
@@ -5989,75 +5713,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BFL-L4-8Rr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46388" y="-558"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="vNe-3Q-hME">
-            <objects>
-                <viewController id="0RH-9T-wrr" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="72Y-8O-9dx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm7-za-Gvo">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="UsX-8a-sNB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="KRd-NY-KJe" kind="show" id="MoX-BZ-SLf"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Joyful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXU-6j-PkC">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFp-85-lhE">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="igF-tg-3nY"/>
-                                </constraints>
-                                <string key="text">For an expedient halt to the spread of the virus. For churches and schools to be reopened, and for people to be able to return to their normal daily activities with a deepened faith and love for God. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7E6-DH-WQb">
-                                <rect key="frame" x="87" y="166" width="201" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="YFp-85-lhE" firstAttribute="top" secondItem="7E6-DH-WQb" secondAttribute="bottom" constant="22.5" id="PH6-gC-bSN"/>
-                            <constraint firstItem="YFp-85-lhE" firstAttribute="centerX" secondItem="72Y-8O-9dx" secondAttribute="centerX" id="Sis-rl-oy9"/>
-                            <constraint firstItem="AXU-6j-PkC" firstAttribute="top" secondItem="HeL-W4-9s8" secondAttribute="top" constant="39" id="Yxv-oP-A5g"/>
-                            <constraint firstItem="HeL-W4-9s8" firstAttribute="trailing" secondItem="YFp-85-lhE" secondAttribute="trailing" constant="16" id="Z8c-g6-oEq"/>
-                            <constraint firstItem="bm7-za-Gvo" firstAttribute="leading" secondItem="HeL-W4-9s8" secondAttribute="leading" id="fPs-IG-cqS"/>
-                            <constraint firstItem="AXU-6j-PkC" firstAttribute="leading" secondItem="HeL-W4-9s8" secondAttribute="leading" constant="20" id="h02-9u-AlB"/>
-                            <constraint firstItem="bm7-za-Gvo" firstAttribute="bottom" secondItem="HeL-W4-9s8" secondAttribute="bottom" id="jEI-mi-S8U"/>
-                            <constraint firstItem="HeL-W4-9s8" firstAttribute="trailing" secondItem="AXU-6j-PkC" secondAttribute="trailing" constant="20" id="kLD-rT-4zZ"/>
-                            <constraint firstItem="YFp-85-lhE" firstAttribute="leading" secondItem="HeL-W4-9s8" secondAttribute="leading" constant="16" id="kUs-rm-v9M"/>
-                            <constraint firstItem="YFp-85-lhE" firstAttribute="centerY" secondItem="72Y-8O-9dx" secondAttribute="centerY" id="nfp-a3-Tnl"/>
-                            <constraint firstItem="7E6-DH-WQb" firstAttribute="centerX" secondItem="72Y-8O-9dx" secondAttribute="centerX" id="nmM-P0-1wz"/>
-                            <constraint firstItem="bm7-za-Gvo" firstAttribute="trailing" secondItem="HeL-W4-9s8" secondAttribute="trailing" id="vAF-Fx-xib"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="HeL-W4-9s8"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Nhd-wm-cRW"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eOJ-qT-KUh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="47132" y="-558"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gI6-fg-TJ7">
@@ -6964,7 +6619,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Y4J-hA-2Bb" kind="show" id="bgh-ob-NgT"/>
+                                    <segue destination="jUa-Xw-ME5" kind="show" id="Kq8-iL-dCP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Sorrowful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8J-Zk-BMW">
@@ -7026,75 +6681,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pxi-Ip-09D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6109.6000000000004" y="115.59220389805098"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="mjs-w1-Dpq">
-            <objects>
-                <viewController id="Y4J-hA-2Bb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mZL-ww-w7p">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzk-ev-Blf">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="4Pc-H7-Te3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="jUa-Xw-ME5" kind="show" id="6M0-3m-DdW"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on5-Cx-u1Y">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pcF-mL-Nb5">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="VCx-Nd-Abg"/>
-                                </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qU-YN-til">
-                                <rect key="frame" x="88" y="166" width="199" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Yzk-ev-Blf" firstAttribute="leading" secondItem="fgf-zP-dzS" secondAttribute="leading" id="4gY-BM-TMh"/>
-                            <constraint firstItem="3qU-YN-til" firstAttribute="centerX" secondItem="mZL-ww-w7p" secondAttribute="centerX" id="5Pg-gZ-oti"/>
-                            <constraint firstItem="pcF-mL-Nb5" firstAttribute="top" secondItem="3qU-YN-til" secondAttribute="bottom" constant="22.5" id="5aa-xc-TjN"/>
-                            <constraint firstItem="fgf-zP-dzS" firstAttribute="trailing" secondItem="pcF-mL-Nb5" secondAttribute="trailing" constant="16" id="655-n4-dkW"/>
-                            <constraint firstItem="on5-Cx-u1Y" firstAttribute="leading" secondItem="fgf-zP-dzS" secondAttribute="leading" constant="20" id="8lT-Co-bC7"/>
-                            <constraint firstItem="pcF-mL-Nb5" firstAttribute="centerY" secondItem="mZL-ww-w7p" secondAttribute="centerY" id="KI7-I2-8zM"/>
-                            <constraint firstItem="on5-Cx-u1Y" firstAttribute="top" secondItem="fgf-zP-dzS" secondAttribute="top" constant="39" id="SN1-MK-Org"/>
-                            <constraint firstItem="Yzk-ev-Blf" firstAttribute="bottom" secondItem="fgf-zP-dzS" secondAttribute="bottom" id="W1k-pc-Lle"/>
-                            <constraint firstItem="pcF-mL-Nb5" firstAttribute="leading" secondItem="fgf-zP-dzS" secondAttribute="leading" constant="16" id="WIK-wQ-TdV"/>
-                            <constraint firstItem="fgf-zP-dzS" firstAttribute="trailing" secondItem="on5-Cx-u1Y" secondAttribute="trailing" constant="20" id="YLE-Ga-N9v"/>
-                            <constraint firstItem="Yzk-ev-Blf" firstAttribute="trailing" secondItem="fgf-zP-dzS" secondAttribute="trailing" id="dSk-g2-5XP"/>
-                            <constraint firstItem="pcF-mL-Nb5" firstAttribute="centerX" secondItem="mZL-ww-w7p" secondAttribute="centerX" id="djX-cy-IIO"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fgf-zP-dzS"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="SnN-Li-YFE"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="28x-DE-RS4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6862" y="119"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0My-lG-bFZ">
@@ -8001,7 +7587,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mds-jc-8xu" kind="show" id="9Av-Cg-gJF"/>
+                                    <segue destination="XD7-cW-AVN" kind="show" id="CsP-Oe-3dh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Sorrowful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdU-qU-mhn">
@@ -8057,75 +7643,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxj-hg-Idk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15841" y="117"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="b2Z-cd-FdX">
-            <objects>
-                <viewController id="mds-jc-8xu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OKQ-Pt-52f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppv-P3-Q2u">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="rWq-UM-X82"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XD7-cW-AVN" kind="show" id="u4y-6B-23G"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z09-ht-x1T">
-                                <rect key="frame" x="20" y="39" width="335" height="79.5"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YHD-1F-TUO">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="J2f-9A-D5u"/>
-                                </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Second Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4O-RG-Psp">
-                                <rect key="frame" x="71" y="166" width="233" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="YHD-1F-TUO" firstAttribute="leading" secondItem="fl4-8M-4WU" secondAttribute="leading" constant="16" id="8fr-fw-o2k"/>
-                            <constraint firstItem="YHD-1F-TUO" firstAttribute="centerY" secondItem="OKQ-Pt-52f" secondAttribute="centerY" id="97b-Ja-LZf"/>
-                            <constraint firstItem="p4O-RG-Psp" firstAttribute="centerX" secondItem="OKQ-Pt-52f" secondAttribute="centerX" id="DTs-xW-Us4"/>
-                            <constraint firstItem="ppv-P3-Q2u" firstAttribute="leading" secondItem="fl4-8M-4WU" secondAttribute="leading" id="E2r-2x-Ruo"/>
-                            <constraint firstItem="ppv-P3-Q2u" firstAttribute="bottom" secondItem="fl4-8M-4WU" secondAttribute="bottom" id="Fu9-DV-zfW"/>
-                            <constraint firstItem="fl4-8M-4WU" firstAttribute="trailing" secondItem="YHD-1F-TUO" secondAttribute="trailing" constant="16" id="KEi-ae-EAt"/>
-                            <constraint firstItem="YHD-1F-TUO" firstAttribute="centerX" secondItem="OKQ-Pt-52f" secondAttribute="centerX" id="Rav-5v-dHb"/>
-                            <constraint firstItem="Z09-ht-x1T" firstAttribute="leading" secondItem="fl4-8M-4WU" secondAttribute="leading" constant="20" id="U0w-mz-5o4"/>
-                            <constraint firstItem="fl4-8M-4WU" firstAttribute="trailing" secondItem="Z09-ht-x1T" secondAttribute="trailing" constant="20" id="YSX-Na-G2z"/>
-                            <constraint firstItem="YHD-1F-TUO" firstAttribute="top" secondItem="p4O-RG-Psp" secondAttribute="bottom" constant="22.5" id="ic0-1A-KOn"/>
-                            <constraint firstItem="Z09-ht-x1T" firstAttribute="top" secondItem="fl4-8M-4WU" secondAttribute="top" constant="39" id="kaj-iB-xGN"/>
-                            <constraint firstItem="ppv-P3-Q2u" firstAttribute="trailing" secondItem="fl4-8M-4WU" secondAttribute="trailing" id="oCe-4y-f6j"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fl4-8M-4WU"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="lRb-z8-PWj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JKc-xH-lgA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16572" y="119"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="56v-lm-zNr">
@@ -8960,7 +8477,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7DV-MW-rzk" kind="show" id="CbL-Q0-kcV"/>
+                                    <segue destination="Buz-xK-plo" kind="show" id="meJ-fo-bzW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Sorrowful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvZ-1o-yYS">
@@ -9016,75 +8533,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrd-2z-Ys7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="26292" y="117"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="kod-cH-49R">
-            <objects>
-                <viewController id="7DV-MW-rzk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wY0-14-meP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xE-JI-hW3">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="xqG-kO-22v"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Buz-xK-plo" kind="show" id="Xp5-EM-P3B"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qR9-Fr-d7K">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iEr-aZ-pYI">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="uTV-69-ZCD"/>
-                                </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Third Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLi-Sk-COj">
-                                <rect key="frame" x="84" y="166" width="207" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="iEr-aZ-pYI" firstAttribute="top" secondItem="SLi-Sk-COj" secondAttribute="bottom" constant="22.5" id="2gn-hI-R3I"/>
-                            <constraint firstItem="7xE-JI-hW3" firstAttribute="bottom" secondItem="mdC-np-QHK" secondAttribute="bottom" id="4x3-Kh-k3e"/>
-                            <constraint firstItem="mdC-np-QHK" firstAttribute="trailing" secondItem="qR9-Fr-d7K" secondAttribute="trailing" constant="20" id="AdX-d4-kwS"/>
-                            <constraint firstItem="qR9-Fr-d7K" firstAttribute="leading" secondItem="mdC-np-QHK" secondAttribute="leading" constant="20" id="BBH-Vb-ini"/>
-                            <constraint firstItem="qR9-Fr-d7K" firstAttribute="top" secondItem="mdC-np-QHK" secondAttribute="top" constant="39" id="MKv-qk-PXA"/>
-                            <constraint firstItem="iEr-aZ-pYI" firstAttribute="leading" secondItem="mdC-np-QHK" secondAttribute="leading" constant="16" id="NKp-8L-4GB"/>
-                            <constraint firstItem="7xE-JI-hW3" firstAttribute="trailing" secondItem="mdC-np-QHK" secondAttribute="trailing" id="PTi-nd-GmT"/>
-                            <constraint firstItem="mdC-np-QHK" firstAttribute="trailing" secondItem="iEr-aZ-pYI" secondAttribute="trailing" constant="16" id="RKA-aT-mjQ"/>
-                            <constraint firstItem="7xE-JI-hW3" firstAttribute="leading" secondItem="mdC-np-QHK" secondAttribute="leading" id="S9z-BU-52e"/>
-                            <constraint firstItem="iEr-aZ-pYI" firstAttribute="centerY" secondItem="wY0-14-meP" secondAttribute="centerY" id="dT6-L0-wZY"/>
-                            <constraint firstItem="iEr-aZ-pYI" firstAttribute="centerX" secondItem="wY0-14-meP" secondAttribute="centerX" id="mHW-ZR-TUl"/>
-                            <constraint firstItem="SLi-Sk-COj" firstAttribute="centerX" secondItem="wY0-14-meP" secondAttribute="centerX" id="zVh-yN-2Jt"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="mdC-np-QHK"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="smA-V6-rly"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g7C-Bw-Pnn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="27018" y="116"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gg3-kH-OiU">
@@ -9991,7 +9439,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="s1M-Qi-Erq" kind="show" id="PCM-dP-ev9"/>
+                                    <segue destination="TiS-ag-GYR" kind="show" id="jig-C5-UCs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Sorrowful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lzc-z2-4sX">
@@ -10047,75 +9495,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2z-yw-BLz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36321" y="116"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="qvV-Ce-IG5">
-            <objects>
-                <viewController id="s1M-Qi-Erq" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ic9-e6-tQA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfQ-si-Yfx">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="Hya-Ey-xBR"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="TiS-ag-GYR" kind="show" id="yuN-an-qnS"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fourth Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhV-ot-qLo">
-                                <rect key="frame" x="20" y="39" width="335" height="79.5"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GY-t9-8Ys">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="1JN-da-7p2"/>
-                                </constraints>
-                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fourth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-lB-idg">
-                                <rect key="frame" x="75" y="166" width="225" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="ZBX-lB-idg" firstAttribute="centerX" secondItem="ic9-e6-tQA" secondAttribute="centerX" id="6dR-kH-cWy"/>
-                            <constraint firstItem="nfQ-si-Yfx" firstAttribute="leading" secondItem="8P7-Rp-Fj4" secondAttribute="leading" id="LFW-Iy-1qb"/>
-                            <constraint firstItem="nfQ-si-Yfx" firstAttribute="trailing" secondItem="8P7-Rp-Fj4" secondAttribute="trailing" id="UHC-Fb-cbz"/>
-                            <constraint firstItem="FhV-ot-qLo" firstAttribute="top" secondItem="8P7-Rp-Fj4" secondAttribute="top" constant="39" id="VeL-hA-X7w"/>
-                            <constraint firstItem="4GY-t9-8Ys" firstAttribute="centerY" secondItem="ic9-e6-tQA" secondAttribute="centerY" id="VmK-Pd-TuA"/>
-                            <constraint firstItem="nfQ-si-Yfx" firstAttribute="bottom" secondItem="8P7-Rp-Fj4" secondAttribute="bottom" id="aVz-bS-sRc"/>
-                            <constraint firstItem="4GY-t9-8Ys" firstAttribute="top" secondItem="ZBX-lB-idg" secondAttribute="bottom" constant="22.5" id="f9X-sP-YsI"/>
-                            <constraint firstItem="8P7-Rp-Fj4" firstAttribute="trailing" secondItem="4GY-t9-8Ys" secondAttribute="trailing" constant="16" id="iQb-B9-t5V"/>
-                            <constraint firstItem="FhV-ot-qLo" firstAttribute="leading" secondItem="8P7-Rp-Fj4" secondAttribute="leading" constant="20" id="leR-04-dlO"/>
-                            <constraint firstItem="8P7-Rp-Fj4" firstAttribute="trailing" secondItem="FhV-ot-qLo" secondAttribute="trailing" constant="20" id="vdJ-wn-JLk"/>
-                            <constraint firstItem="4GY-t9-8Ys" firstAttribute="leading" secondItem="8P7-Rp-Fj4" secondAttribute="leading" constant="16" id="xai-JI-1P1"/>
-                            <constraint firstItem="4GY-t9-8Ys" firstAttribute="centerX" secondItem="ic9-e6-tQA" secondAttribute="centerX" id="xam-fG-UdO"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="8P7-Rp-Fj4"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Wpo-Wr-gm0"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mlQ-IX-LKr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37047" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cGJ-uP-BSX">
@@ -11022,7 +10401,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JLY-ME-asd" kind="show" id="r4P-Mx-QF2"/>
+                                    <segue destination="seW-db-he0" kind="show" id="2e3-w3-uhA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Sorrowful Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN9-cT-8bH">
@@ -11078,75 +10457,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vh1-EV-jYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46386" y="116"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="a8P-2A-uKS">
-            <objects>
-                <viewController id="JLY-ME-asd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wex-76-p4C">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U93-bA-scl">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="w8Y-TY-Fx5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="seW-db-he0" kind="show" id="Qtn-RB-Gyu"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Sorrowful Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92N-TW-SML">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="he9-aD-b1V">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="LIi-dm-gDC"/>
-                                </constraints>
-                                <string key="text">For an expedient halt to the spread of the virus. For churches and schools to be reopened, and for people to be able to return to their normal daily activities with a deepened faith and love for God. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYE-uD-bz7">
-                                <rect key="frame" x="87" y="166" width="201" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="U93-bA-scl" firstAttribute="trailing" secondItem="EgF-ws-rfA" secondAttribute="trailing" id="Dut-eA-jSc"/>
-                            <constraint firstItem="EgF-ws-rfA" firstAttribute="trailing" secondItem="92N-TW-SML" secondAttribute="trailing" constant="20" id="DyV-1o-DdJ"/>
-                            <constraint firstItem="he9-aD-b1V" firstAttribute="centerX" secondItem="Wex-76-p4C" secondAttribute="centerX" id="IBU-7X-u2T"/>
-                            <constraint firstItem="pYE-uD-bz7" firstAttribute="centerX" secondItem="Wex-76-p4C" secondAttribute="centerX" id="IRE-pR-sOt"/>
-                            <constraint firstItem="he9-aD-b1V" firstAttribute="centerY" secondItem="Wex-76-p4C" secondAttribute="centerY" id="QbT-7V-nQv"/>
-                            <constraint firstItem="92N-TW-SML" firstAttribute="top" secondItem="EgF-ws-rfA" secondAttribute="top" constant="39" id="SqI-Hg-ET5"/>
-                            <constraint firstItem="he9-aD-b1V" firstAttribute="leading" secondItem="EgF-ws-rfA" secondAttribute="leading" constant="16" id="W0C-00-b21"/>
-                            <constraint firstItem="he9-aD-b1V" firstAttribute="top" secondItem="pYE-uD-bz7" secondAttribute="bottom" constant="22.5" id="aiQ-Go-fBL"/>
-                            <constraint firstItem="92N-TW-SML" firstAttribute="leading" secondItem="EgF-ws-rfA" secondAttribute="leading" constant="20" id="hR0-27-CXl"/>
-                            <constraint firstItem="U93-bA-scl" firstAttribute="leading" secondItem="EgF-ws-rfA" secondAttribute="leading" id="ma4-2X-NJF"/>
-                            <constraint firstItem="EgF-ws-rfA" firstAttribute="trailing" secondItem="he9-aD-b1V" secondAttribute="trailing" constant="16" id="sEh-Sg-6kF"/>
-                            <constraint firstItem="U93-bA-scl" firstAttribute="bottom" secondItem="EgF-ws-rfA" secondAttribute="bottom" id="xuC-UF-Dgc"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="EgF-ws-rfA"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="MEX-qH-OVu"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aX7-VM-GI9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="47130" y="116"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TWz-eO-O7r">
@@ -12125,7 +11435,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lNV-Ve-ZmR" kind="show" id="jbR-OC-i3f"/>
+                                    <segue destination="hlz-T1-LEQ" kind="show" id="DaK-at-10h"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Glorious Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE5-Gm-a4M">
@@ -12181,75 +11491,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="09x-Z9-lOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6110" y="806"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="cqc-E0-ZoR">
-            <objects>
-                <viewController id="lNV-Ve-ZmR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2wH-rg-THg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eV-dJ-58d">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="JYg-aM-miJ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="hlz-T1-LEQ" kind="show" id="MQi-Oo-hfR"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-GV-iPe">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-zN-93q">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="TDn-VV-lcP"/>
-                                </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7wu-sk-yX6">
-                                <rect key="frame" x="88" y="166" width="199" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="5eV-dJ-58d" firstAttribute="bottom" secondItem="V4s-6r-4KW" secondAttribute="bottom" id="287-OB-x1P"/>
-                            <constraint firstItem="5eV-dJ-58d" firstAttribute="trailing" secondItem="V4s-6r-4KW" secondAttribute="trailing" id="3gJ-a6-mKE"/>
-                            <constraint firstItem="V4s-6r-4KW" firstAttribute="trailing" secondItem="qnb-GV-iPe" secondAttribute="trailing" constant="20" id="Bcw-BI-shK"/>
-                            <constraint firstItem="V4s-6r-4KW" firstAttribute="trailing" secondItem="bTR-zN-93q" secondAttribute="trailing" constant="16" id="ID3-1V-CQ4"/>
-                            <constraint firstItem="7wu-sk-yX6" firstAttribute="centerX" secondItem="2wH-rg-THg" secondAttribute="centerX" id="P0T-59-eBh"/>
-                            <constraint firstItem="qnb-GV-iPe" firstAttribute="top" secondItem="V4s-6r-4KW" secondAttribute="top" constant="39" id="R0d-Lx-VAu"/>
-                            <constraint firstItem="5eV-dJ-58d" firstAttribute="leading" secondItem="V4s-6r-4KW" secondAttribute="leading" id="UVv-XO-1kD"/>
-                            <constraint firstItem="bTR-zN-93q" firstAttribute="centerX" secondItem="2wH-rg-THg" secondAttribute="centerX" id="Wm4-vF-pcs"/>
-                            <constraint firstItem="qnb-GV-iPe" firstAttribute="leading" secondItem="V4s-6r-4KW" secondAttribute="leading" constant="20" id="akk-Xv-DwK"/>
-                            <constraint firstItem="bTR-zN-93q" firstAttribute="top" secondItem="7wu-sk-yX6" secondAttribute="bottom" constant="22.5" id="eM3-gF-dIl"/>
-                            <constraint firstItem="bTR-zN-93q" firstAttribute="leading" secondItem="V4s-6r-4KW" secondAttribute="leading" constant="16" id="lYT-Yy-qpv"/>
-                            <constraint firstItem="bTR-zN-93q" firstAttribute="centerY" secondItem="2wH-rg-THg" secondAttribute="centerY" id="tAk-qg-dlo"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="V4s-6r-4KW"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="fvu-r7-iYp"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dT7-p1-U8t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6862" y="809"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FV4-bV-dyQ">
@@ -13156,7 +12397,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Auk-69-bFQ" kind="show" id="mYP-bL-4Wf"/>
+                                    <segue destination="8YW-fU-UYw" kind="show" id="hdL-0b-OnP"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Glorious Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0y-94-hA8">
@@ -13212,75 +12453,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7M9-TX-VTb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15841" y="808"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Up2-bw-tZI">
-            <objects>
-                <viewController id="Auk-69-bFQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VlS-dx-teA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9R-QX-AyI">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="y3u-0S-M73"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="8YW-fU-UYw" kind="show" id="ukC-Tv-3s8"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOl-3D-M1W">
-                                <rect key="frame" x="20" y="39" width="335" height="79.5"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1c-Cr-pnt">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="lwx-cW-3mw"/>
-                                </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Second Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpj-YZ-opZ">
-                                <rect key="frame" x="71" y="166" width="233" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="wpj-YZ-opZ" firstAttribute="centerX" secondItem="VlS-dx-teA" secondAttribute="centerX" id="0ZV-OV-iqL"/>
-                            <constraint firstItem="K1c-Cr-pnt" firstAttribute="leading" secondItem="7QD-Lr-eW5" secondAttribute="leading" constant="16" id="2Ue-dR-fBD"/>
-                            <constraint firstItem="7QD-Lr-eW5" firstAttribute="trailing" secondItem="K1c-Cr-pnt" secondAttribute="trailing" constant="16" id="90w-vK-41K"/>
-                            <constraint firstItem="mOl-3D-M1W" firstAttribute="leading" secondItem="7QD-Lr-eW5" secondAttribute="leading" constant="20" id="Khf-b8-Iic"/>
-                            <constraint firstItem="F9R-QX-AyI" firstAttribute="leading" secondItem="7QD-Lr-eW5" secondAttribute="leading" id="Mdj-UZ-SCa"/>
-                            <constraint firstItem="F9R-QX-AyI" firstAttribute="bottom" secondItem="7QD-Lr-eW5" secondAttribute="bottom" id="Wkx-ec-QMW"/>
-                            <constraint firstItem="K1c-Cr-pnt" firstAttribute="centerY" secondItem="VlS-dx-teA" secondAttribute="centerY" id="XKj-ve-xa6"/>
-                            <constraint firstItem="7QD-Lr-eW5" firstAttribute="trailing" secondItem="mOl-3D-M1W" secondAttribute="trailing" constant="20" id="cBC-T6-FiK"/>
-                            <constraint firstItem="K1c-Cr-pnt" firstAttribute="top" secondItem="wpj-YZ-opZ" secondAttribute="bottom" constant="22.5" id="fJm-qH-kyh"/>
-                            <constraint firstItem="mOl-3D-M1W" firstAttribute="top" secondItem="7QD-Lr-eW5" secondAttribute="top" constant="39" id="fkh-hX-iMI"/>
-                            <constraint firstItem="F9R-QX-AyI" firstAttribute="trailing" secondItem="7QD-Lr-eW5" secondAttribute="trailing" id="tD6-9x-HQx"/>
-                            <constraint firstItem="K1c-Cr-pnt" firstAttribute="centerX" secondItem="VlS-dx-teA" secondAttribute="centerX" id="wlx-d3-fje"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="7QD-Lr-eW5"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="3JA-IF-MAi"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yy0-Bk-OGN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16572" y="810"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GFb-cW-mOu">
@@ -14187,7 +13359,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Tmj-FB-zpI" kind="show" id="CC0-uq-f60"/>
+                                    <segue destination="b1U-yH-Bcb" kind="show" id="AWZ-QN-nn6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Glorious Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyO-1c-Gom">
@@ -14243,75 +13415,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NKo-en-Q0E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="26294" y="806"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Ayt-xD-fDd">
-            <objects>
-                <viewController id="Tmj-FB-zpI" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dbw-aj-RBg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i40-04-UoO">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="Fji-zU-Pjh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="b1U-yH-Bcb" kind="show" id="ASG-a8-oDI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itm-lb-W2j">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJT-Tr-ynI">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="ltC-Lc-FQS"/>
-                                </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Third Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vW9-2z-KgP">
-                                <rect key="frame" x="84" y="166" width="207" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="i40-04-UoO" firstAttribute="bottom" secondItem="9c5-3X-CiY" secondAttribute="bottom" id="7dG-fY-k5u"/>
-                            <constraint firstItem="mJT-Tr-ynI" firstAttribute="top" secondItem="vW9-2z-KgP" secondAttribute="bottom" constant="22.5" id="8pX-Ts-BaF"/>
-                            <constraint firstItem="vW9-2z-KgP" firstAttribute="centerX" secondItem="dbw-aj-RBg" secondAttribute="centerX" id="Dqr-4P-Xue"/>
-                            <constraint firstItem="mJT-Tr-ynI" firstAttribute="centerX" secondItem="dbw-aj-RBg" secondAttribute="centerX" id="FJ9-Jb-jSM"/>
-                            <constraint firstItem="mJT-Tr-ynI" firstAttribute="centerY" secondItem="dbw-aj-RBg" secondAttribute="centerY" id="M6Z-v3-iaJ"/>
-                            <constraint firstItem="mJT-Tr-ynI" firstAttribute="leading" secondItem="9c5-3X-CiY" secondAttribute="leading" constant="16" id="ZDh-lV-443"/>
-                            <constraint firstItem="i40-04-UoO" firstAttribute="trailing" secondItem="9c5-3X-CiY" secondAttribute="trailing" id="b0J-gx-ieq"/>
-                            <constraint firstItem="itm-lb-W2j" firstAttribute="top" secondItem="9c5-3X-CiY" secondAttribute="top" constant="39" id="jk2-kU-P5z"/>
-                            <constraint firstItem="i40-04-UoO" firstAttribute="leading" secondItem="9c5-3X-CiY" secondAttribute="leading" id="lHZ-Eo-cli"/>
-                            <constraint firstItem="9c5-3X-CiY" firstAttribute="trailing" secondItem="mJT-Tr-ynI" secondAttribute="trailing" constant="16" id="lkR-Yi-Ffv"/>
-                            <constraint firstItem="itm-lb-W2j" firstAttribute="leading" secondItem="9c5-3X-CiY" secondAttribute="leading" constant="20" id="sZG-9P-Ule"/>
-                            <constraint firstItem="9c5-3X-CiY" firstAttribute="trailing" secondItem="itm-lb-W2j" secondAttribute="trailing" constant="20" id="vcn-4k-rAy"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="9c5-3X-CiY"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="bQi-aP-xbz"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rsZ-YF-5cp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="27020" y="805"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8pW-Hq-1oB">
@@ -15218,7 +14321,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="luB-ER-u6F" kind="show" id="Fh7-x3-GZu"/>
+                                    <segue destination="4ju-J2-T2G" kind="show" id="N3J-ub-rJi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Glorious Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f21-Ux-FsO">
@@ -15274,75 +14377,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pot-mi-8Qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36321" y="805"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Eb7-fp-0E0">
-            <objects>
-                <viewController id="luB-ER-u6F" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7Oo-gh-6S8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eg9-ah-1mN">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="M7z-8j-mxM"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="4ju-J2-T2G" kind="show" id="Y0k-Sm-YHd"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fourth Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7L-tv-lXO">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y8g-tP-0VV">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="ilY-cS-UMB"/>
-                                </constraints>
-                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fourth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVX-bV-hXy">
-                                <rect key="frame" x="75" y="166" width="225" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="y8g-tP-0VV" firstAttribute="leading" secondItem="rfi-y5-UDG" secondAttribute="leading" constant="16" id="1A7-DV-TUs"/>
-                            <constraint firstItem="y8g-tP-0VV" firstAttribute="centerY" secondItem="7Oo-gh-6S8" secondAttribute="centerY" id="41L-lh-0Yd"/>
-                            <constraint firstItem="rfi-y5-UDG" firstAttribute="trailing" secondItem="y8g-tP-0VV" secondAttribute="trailing" constant="16" id="7bv-5c-Xee"/>
-                            <constraint firstItem="eg9-ah-1mN" firstAttribute="leading" secondItem="rfi-y5-UDG" secondAttribute="leading" id="8Zd-Nn-4Vy"/>
-                            <constraint firstItem="rfi-y5-UDG" firstAttribute="trailing" secondItem="T7L-tv-lXO" secondAttribute="trailing" constant="20" id="Nib-Hx-DwP"/>
-                            <constraint firstItem="eg9-ah-1mN" firstAttribute="bottom" secondItem="rfi-y5-UDG" secondAttribute="bottom" id="RaV-BQ-01G"/>
-                            <constraint firstItem="y8g-tP-0VV" firstAttribute="top" secondItem="bVX-bV-hXy" secondAttribute="bottom" constant="22.5" id="VEk-hS-yGh"/>
-                            <constraint firstItem="bVX-bV-hXy" firstAttribute="centerX" secondItem="7Oo-gh-6S8" secondAttribute="centerX" id="Vre-zc-Vnb"/>
-                            <constraint firstItem="T7L-tv-lXO" firstAttribute="top" secondItem="rfi-y5-UDG" secondAttribute="top" constant="39" id="cad-Xb-gyQ"/>
-                            <constraint firstItem="T7L-tv-lXO" firstAttribute="leading" secondItem="rfi-y5-UDG" secondAttribute="leading" constant="20" id="tDf-BG-pZh"/>
-                            <constraint firstItem="eg9-ah-1mN" firstAttribute="trailing" secondItem="rfi-y5-UDG" secondAttribute="trailing" id="urQ-Wb-WRd"/>
-                            <constraint firstItem="y8g-tP-0VV" firstAttribute="centerX" secondItem="7Oo-gh-6S8" secondAttribute="centerX" id="x9g-K5-5OL"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="rfi-y5-UDG"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8qG-nk-tJV"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vet-ma-DgS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37047" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="D9m-Vt-XgG">
@@ -16249,7 +15283,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SWa-qW-n0V" kind="show" id="bjh-Ua-HSJ"/>
+                                    <segue destination="17R-1f-Ffn" kind="show" id="nbx-eA-pN8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Glorious Mysteries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1v-YG-FAe">
@@ -16305,75 +15339,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKI-hY-mu5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46385" y="806"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="sfv-FD-JOx">
-            <objects>
-                <viewController id="SWa-qW-n0V" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W65-XG-LzY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmO-Yj-Zbp">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="4LL-xH-xEe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="17R-1f-Ffn" kind="show" id="3X6-mw-fnf"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Glorious Mystery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qf-h7-y47">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-tk-8mF">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="5f0-4l-YaN"/>
-                                </constraints>
-                                <string key="text">For an expedient halt to the spread of the virus. For churches and schools to be reopened, and for people to be able to return to their normal daily activities with a deepened faith and love for God. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ia-4e-yx5">
-                                <rect key="frame" x="87" y="166" width="201" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="pmO-Yj-Zbp" firstAttribute="leading" secondItem="4nR-pD-fzc" secondAttribute="leading" id="2GU-iY-d7e"/>
-                            <constraint firstItem="4nR-pD-fzc" firstAttribute="trailing" secondItem="eCs-tk-8mF" secondAttribute="trailing" constant="16" id="AcS-Im-jE0"/>
-                            <constraint firstItem="eCs-tk-8mF" firstAttribute="centerX" secondItem="W65-XG-LzY" secondAttribute="centerX" id="DvP-4C-ap6"/>
-                            <constraint firstItem="pmO-Yj-Zbp" firstAttribute="bottom" secondItem="4nR-pD-fzc" secondAttribute="bottom" id="G8h-2c-Zc6"/>
-                            <constraint firstItem="eCs-tk-8mF" firstAttribute="centerY" secondItem="W65-XG-LzY" secondAttribute="centerY" id="Iqv-JG-Aow"/>
-                            <constraint firstItem="2qf-h7-y47" firstAttribute="leading" secondItem="4nR-pD-fzc" secondAttribute="leading" constant="20" id="PWH-tU-bGR"/>
-                            <constraint firstItem="eCs-tk-8mF" firstAttribute="leading" secondItem="4nR-pD-fzc" secondAttribute="leading" constant="16" id="QGr-XG-0FA"/>
-                            <constraint firstItem="4nR-pD-fzc" firstAttribute="trailing" secondItem="2qf-h7-y47" secondAttribute="trailing" constant="20" id="UWj-UD-OAZ"/>
-                            <constraint firstItem="2qf-h7-y47" firstAttribute="top" secondItem="4nR-pD-fzc" secondAttribute="top" constant="39" id="Y5U-dI-zen"/>
-                            <constraint firstItem="eCs-tk-8mF" firstAttribute="top" secondItem="6Ia-4e-yx5" secondAttribute="bottom" constant="22.5" id="xLy-4K-lDX"/>
-                            <constraint firstItem="pmO-Yj-Zbp" firstAttribute="trailing" secondItem="4nR-pD-fzc" secondAttribute="trailing" id="xSd-JT-5bq"/>
-                            <constraint firstItem="6Ia-4e-yx5" firstAttribute="centerX" secondItem="W65-XG-LzY" secondAttribute="centerX" id="xbt-Su-fqJ"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="4nR-pD-fzc"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="zin-T5-yQr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TcJ-FI-Jgw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="47129" y="806"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7M2-cr-5aG">
@@ -17364,7 +16329,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Xf3-kY-roz" kind="show" id="UBN-ef-yEx"/>
+                                    <segue destination="6Dn-In-vy8" kind="show" id="IN3-lM-e0K"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Mysteries of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6M5-GU-h7e">
@@ -17420,75 +16385,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="09N-46-1gK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6110" y="1484"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="iXl-Lu-elf">
-            <objects>
-                <viewController id="Xf3-kY-roz" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="yho-1q-o2U">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRY-RG-cqJ">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="dGL-X4-VdS"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="6Dn-In-vy8" kind="show" id="Rsn-MO-ikt"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ag-xK-Map">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0wO-6p-hDE">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="oxG-zt-0Ah"/>
-                                </constraints>
-                                <string key="text">For the protection of the first responders, doctors, and nurses who care for those made critically ill by the Pandemic. For wisdom and guidance on those scientists and researchers seeking vaccines and rapid testing platforms. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The First Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEM-xq-4ns">
-                                <rect key="frame" x="88" y="166" width="199" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="0wO-6p-hDE" firstAttribute="centerX" secondItem="yho-1q-o2U" secondAttribute="centerX" id="3OR-rH-KTl"/>
-                            <constraint firstItem="0wO-6p-hDE" firstAttribute="centerY" secondItem="yho-1q-o2U" secondAttribute="centerY" id="7wj-UM-aKK"/>
-                            <constraint firstItem="5ag-xK-Map" firstAttribute="top" secondItem="Fr7-hz-pSC" secondAttribute="top" constant="39" id="Eio-sT-TCu"/>
-                            <constraint firstItem="0wO-6p-hDE" firstAttribute="leading" secondItem="Fr7-hz-pSC" secondAttribute="leading" constant="16" id="GSY-n9-mBr"/>
-                            <constraint firstItem="5ag-xK-Map" firstAttribute="leading" secondItem="Fr7-hz-pSC" secondAttribute="leading" constant="20" id="IQI-lA-9au"/>
-                            <constraint firstItem="bRY-RG-cqJ" firstAttribute="bottom" secondItem="Fr7-hz-pSC" secondAttribute="bottom" id="N7V-0c-EZe"/>
-                            <constraint firstItem="Fr7-hz-pSC" firstAttribute="trailing" secondItem="5ag-xK-Map" secondAttribute="trailing" constant="20" id="PFH-3L-f9h"/>
-                            <constraint firstItem="bRY-RG-cqJ" firstAttribute="trailing" secondItem="Fr7-hz-pSC" secondAttribute="trailing" id="RXU-BP-98T"/>
-                            <constraint firstItem="OEM-xq-4ns" firstAttribute="centerX" secondItem="yho-1q-o2U" secondAttribute="centerX" id="exF-F8-SKX"/>
-                            <constraint firstItem="0wO-6p-hDE" firstAttribute="top" secondItem="OEM-xq-4ns" secondAttribute="bottom" constant="22.5" id="iCU-BZ-qix"/>
-                            <constraint firstItem="Fr7-hz-pSC" firstAttribute="trailing" secondItem="0wO-6p-hDE" secondAttribute="trailing" constant="16" id="qSZ-jx-0ks"/>
-                            <constraint firstItem="bRY-RG-cqJ" firstAttribute="leading" secondItem="Fr7-hz-pSC" secondAttribute="leading" id="quq-Ml-aYE"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Fr7-hz-pSC"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="cuj-Em-MYM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="chZ-bd-CnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6862" y="1487"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TFc-VI-i0e">
@@ -18395,7 +17291,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IZW-NH-j75" kind="show" id="mBD-bO-F6B"/>
+                                    <segue destination="PZ9-3d-y1E" kind="show" id="pfG-Xh-hCf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Mysteries of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc2-Tc-Xrv">
@@ -18451,75 +17347,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ABb-8I-7WN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="15841" y="1483"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="xGA-lz-dNh">
-            <objects>
-                <viewController id="IZW-NH-j75" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2lh-pS-7SA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaC-jx-wt2">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="tAx-W7-a6x"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PZ9-3d-y1E" kind="show" id="6Qt-2D-LwA"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4O-8F-c2h">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7E8-U1-4Rh">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="hy4-Zg-P1f"/>
-                                </constraints>
-                                <string key="text">For a full and speedy recovery for those suffering from the pandemic. For protection of their family members and all those who are at risk of getting or transmitting the virus. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Second Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjD-BA-bwN">
-                                <rect key="frame" x="71" y="166" width="233" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="tzq-iG-YNM" firstAttribute="trailing" secondItem="7E8-U1-4Rh" secondAttribute="trailing" constant="16" id="1yt-tu-Zhc"/>
-                            <constraint firstItem="WjD-BA-bwN" firstAttribute="centerX" secondItem="2lh-pS-7SA" secondAttribute="centerX" id="6NN-JM-wif"/>
-                            <constraint firstItem="7E8-U1-4Rh" firstAttribute="centerX" secondItem="2lh-pS-7SA" secondAttribute="centerX" id="83c-Sh-bR0"/>
-                            <constraint firstItem="V4O-8F-c2h" firstAttribute="leading" secondItem="tzq-iG-YNM" secondAttribute="leading" constant="20" id="GNJ-Pi-f8U"/>
-                            <constraint firstItem="jaC-jx-wt2" firstAttribute="trailing" secondItem="tzq-iG-YNM" secondAttribute="trailing" id="JRd-3e-65m"/>
-                            <constraint firstItem="7E8-U1-4Rh" firstAttribute="leading" secondItem="tzq-iG-YNM" secondAttribute="leading" constant="16" id="P2D-d3-pbx"/>
-                            <constraint firstItem="7E8-U1-4Rh" firstAttribute="top" secondItem="WjD-BA-bwN" secondAttribute="bottom" constant="22.5" id="QrT-ml-7w9"/>
-                            <constraint firstItem="tzq-iG-YNM" firstAttribute="trailing" secondItem="V4O-8F-c2h" secondAttribute="trailing" constant="20" id="TrA-KN-6cv"/>
-                            <constraint firstItem="jaC-jx-wt2" firstAttribute="bottom" secondItem="tzq-iG-YNM" secondAttribute="bottom" id="WCH-C0-64F"/>
-                            <constraint firstItem="jaC-jx-wt2" firstAttribute="leading" secondItem="tzq-iG-YNM" secondAttribute="leading" id="jnz-AX-LCF"/>
-                            <constraint firstItem="7E8-U1-4Rh" firstAttribute="centerY" secondItem="2lh-pS-7SA" secondAttribute="centerY" id="v4r-hq-M0u"/>
-                            <constraint firstItem="V4O-8F-c2h" firstAttribute="top" secondItem="tzq-iG-YNM" secondAttribute="top" constant="39" id="wtb-VJ-b43"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="tzq-iG-YNM"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="vGV-uN-Clc"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fk-VT-e1E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16572" y="1486"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tx4-Yj-N3N">
@@ -19426,7 +18253,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WHk-ce-rbx" kind="show" id="eUV-hh-Grf"/>
+                                    <segue destination="nu8-cf-FGQ" kind="show" id="plO-OY-FOp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Mysteries of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eve-73-FfT">
@@ -19482,75 +18309,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pfC-AF-3TX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="26294" y="1485"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="QEN-j5-nyM">
-            <objects>
-                <viewController id="WHk-ce-rbx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6O7-5U-cAU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pna-iq-J1j">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="FoH-46-R4M"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="nu8-cf-FGQ" kind="show" id="fF6-Hr-o1n"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oa5-ax-Jit">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GX5-Ae-4iX">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="oI8-R8-boL"/>
-                                </constraints>
-                                <string key="text">For God’s abundant mercy on the souls of those who have died from the pandemic. For strength and consolation for their grieving families. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Third Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mR4-iv-oJd">
-                                <rect key="frame" x="84" y="166" width="207" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="pna-iq-J1j" firstAttribute="trailing" secondItem="dVJ-2s-7uV" secondAttribute="trailing" id="4uV-Bg-vI7"/>
-                            <constraint firstItem="Oa5-ax-Jit" firstAttribute="leading" secondItem="dVJ-2s-7uV" secondAttribute="leading" constant="20" id="8lO-U7-RP6"/>
-                            <constraint firstItem="GX5-Ae-4iX" firstAttribute="leading" secondItem="dVJ-2s-7uV" secondAttribute="leading" constant="16" id="Dlh-p6-j2m"/>
-                            <constraint firstItem="GX5-Ae-4iX" firstAttribute="top" secondItem="mR4-iv-oJd" secondAttribute="bottom" constant="22.5" id="FS0-Ar-21c"/>
-                            <constraint firstItem="pna-iq-J1j" firstAttribute="leading" secondItem="dVJ-2s-7uV" secondAttribute="leading" id="QJb-NP-qsd"/>
-                            <constraint firstItem="GX5-Ae-4iX" firstAttribute="centerX" secondItem="6O7-5U-cAU" secondAttribute="centerX" id="ZcB-zB-cWv"/>
-                            <constraint firstItem="dVJ-2s-7uV" firstAttribute="trailing" secondItem="Oa5-ax-Jit" secondAttribute="trailing" constant="20" id="ZyR-u8-VYG"/>
-                            <constraint firstItem="pna-iq-J1j" firstAttribute="bottom" secondItem="dVJ-2s-7uV" secondAttribute="bottom" id="bIX-PL-Gna"/>
-                            <constraint firstItem="dVJ-2s-7uV" firstAttribute="trailing" secondItem="GX5-Ae-4iX" secondAttribute="trailing" constant="16" id="dGk-Gs-oSb"/>
-                            <constraint firstItem="mR4-iv-oJd" firstAttribute="centerX" secondItem="6O7-5U-cAU" secondAttribute="centerX" id="gNR-6o-yHo"/>
-                            <constraint firstItem="GX5-Ae-4iX" firstAttribute="centerY" secondItem="6O7-5U-cAU" secondAttribute="centerY" id="tAd-M9-y1q"/>
-                            <constraint firstItem="Oa5-ax-Jit" firstAttribute="top" secondItem="dVJ-2s-7uV" secondAttribute="top" constant="39" id="wN4-3k-jAD"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="dVJ-2s-7uV"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="lMq-cl-a8T"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bAZ-xG-rkF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="27020" y="1484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UaW-0l-6dW">
@@ -20457,7 +19215,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4hs-WL-KuC" kind="show" id="XTg-gl-SW6"/>
+                                    <segue destination="9Eh-Z8-TwA" kind="show" id="JgY-37-exp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Mysteries of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9o4-sI-mtq">
@@ -20513,75 +19271,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RK4-Xi-g90" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="36321" y="1484"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="04T-eP-7oK">
-            <objects>
-                <viewController id="4hs-WL-KuC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xnY-Sn-1Xo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaQ-73-XqL">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="SMp-li-Ixc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="9Eh-Z8-TwA" kind="show" id="Sgt-9v-mXf"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fourth Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivS-0T-XM6">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bw1-bc-R4I">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="bTj-Lz-7S0"/>
-                                </constraints>
-                                <string key="text">For protection on those who are most vulnerable to the virus: the elderly, those with compromised immune systems, those who have been travelling abroad, those who are in quarantine. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fourth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8os-hn-tNM">
-                                <rect key="frame" x="75" y="166" width="225" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="ivS-0T-XM6" firstAttribute="top" secondItem="7Te-f2-mug" secondAttribute="top" constant="39" id="MAc-sU-fLP"/>
-                            <constraint firstItem="bw1-bc-R4I" firstAttribute="leading" secondItem="7Te-f2-mug" secondAttribute="leading" constant="16" id="PtD-x5-8BL"/>
-                            <constraint firstItem="ZaQ-73-XqL" firstAttribute="bottom" secondItem="7Te-f2-mug" secondAttribute="bottom" id="QKc-Yv-lsa"/>
-                            <constraint firstItem="bw1-bc-R4I" firstAttribute="top" secondItem="8os-hn-tNM" secondAttribute="bottom" constant="22.5" id="Qek-z1-CgX"/>
-                            <constraint firstItem="7Te-f2-mug" firstAttribute="trailing" secondItem="ivS-0T-XM6" secondAttribute="trailing" constant="20" id="XJ2-3e-BhM"/>
-                            <constraint firstItem="8os-hn-tNM" firstAttribute="centerX" secondItem="xnY-Sn-1Xo" secondAttribute="centerX" id="fyr-83-bzT"/>
-                            <constraint firstItem="ivS-0T-XM6" firstAttribute="leading" secondItem="7Te-f2-mug" secondAttribute="leading" constant="20" id="gKQ-Fu-ZX8"/>
-                            <constraint firstItem="bw1-bc-R4I" firstAttribute="centerX" secondItem="xnY-Sn-1Xo" secondAttribute="centerX" id="nHE-Hi-DlX"/>
-                            <constraint firstItem="ZaQ-73-XqL" firstAttribute="leading" secondItem="7Te-f2-mug" secondAttribute="leading" id="oH9-Ql-Hv5"/>
-                            <constraint firstItem="7Te-f2-mug" firstAttribute="trailing" secondItem="bw1-bc-R4I" secondAttribute="trailing" constant="16" id="oXe-Qg-NFi"/>
-                            <constraint firstItem="bw1-bc-R4I" firstAttribute="centerY" secondItem="xnY-Sn-1Xo" secondAttribute="centerY" id="sbn-5v-jSD"/>
-                            <constraint firstItem="ZaQ-73-XqL" firstAttribute="trailing" secondItem="7Te-f2-mug" secondAttribute="trailing" id="soc-mt-BHR"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="7Te-f2-mug"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="bDH-3t-htE"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LAe-1i-yMD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37047" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="q3z-Fm-nCN">
@@ -21488,7 +20177,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AnP-0F-mrd" kind="show" id="lop-Nv-yxN"/>
+                                    <segue destination="qhY-Ut-Nji" kind="show" id="9mn-N7-4rV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Mysteries of Light" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75e-Vt-Rid">
@@ -21544,75 +20233,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekS-yq-sL0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46385" y="1485"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="PR0-IM-oKy">
-            <objects>
-                <viewController id="AnP-0F-mrd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AmV-7L-PPa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyC-V0-4Fj">
-                                <rect key="frame" x="0.0" y="567" width="375" height="80"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="k2I-oy-1h9"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Continue Prayer">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="qhY-Ut-Nji" kind="show" id="V5L-xa-m8t"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifth Mystery of Light" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sP-11-X4F">
-                                <rect key="frame" x="20" y="39" width="335" height="40"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Pf-Vh-y8V">
-                                <rect key="frame" x="16" y="223.5" width="343" height="200"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="9ML-Ct-eAn"/>
-                                </constraints>
-                                <string key="text">For an expedient halt to the spread of the virus. For churches and schools to be reopened, and for people to be able to return to their normal daily activities with a deepened faith and love for God. Our Lady, Help of Christians, intercede for us!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Fifth Decade" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMa-6Z-4vD">
-                                <rect key="frame" x="87" y="166" width="201" height="35"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Nsd-3m-QWd" firstAttribute="trailing" secondItem="8Pf-Vh-y8V" secondAttribute="trailing" constant="16" id="4aQ-pt-Sjb"/>
-                            <constraint firstItem="Nsd-3m-QWd" firstAttribute="trailing" secondItem="0sP-11-X4F" secondAttribute="trailing" constant="20" id="FPT-xu-0ZI"/>
-                            <constraint firstItem="IyC-V0-4Fj" firstAttribute="trailing" secondItem="Nsd-3m-QWd" secondAttribute="trailing" id="IHa-0W-d5q"/>
-                            <constraint firstItem="0sP-11-X4F" firstAttribute="leading" secondItem="Nsd-3m-QWd" secondAttribute="leading" constant="20" id="Jk2-Gr-0GN"/>
-                            <constraint firstItem="8Pf-Vh-y8V" firstAttribute="centerX" secondItem="AmV-7L-PPa" secondAttribute="centerX" id="OCd-f1-BcJ"/>
-                            <constraint firstItem="0sP-11-X4F" firstAttribute="top" secondItem="Nsd-3m-QWd" secondAttribute="top" constant="39" id="YLV-lJ-QAm"/>
-                            <constraint firstItem="IyC-V0-4Fj" firstAttribute="bottom" secondItem="Nsd-3m-QWd" secondAttribute="bottom" id="bo6-yf-LfM"/>
-                            <constraint firstItem="8Pf-Vh-y8V" firstAttribute="top" secondItem="IMa-6Z-4vD" secondAttribute="bottom" constant="22.5" id="eq6-Se-TFO"/>
-                            <constraint firstItem="8Pf-Vh-y8V" firstAttribute="leading" secondItem="Nsd-3m-QWd" secondAttribute="leading" constant="16" id="kS3-o1-0Ny"/>
-                            <constraint firstItem="8Pf-Vh-y8V" firstAttribute="centerY" secondItem="AmV-7L-PPa" secondAttribute="centerY" id="s9E-Vn-8Bu"/>
-                            <constraint firstItem="IMa-6Z-4vD" firstAttribute="centerX" secondItem="AmV-7L-PPa" secondAttribute="centerX" id="uHT-I0-dP3"/>
-                            <constraint firstItem="IyC-V0-4Fj" firstAttribute="leading" secondItem="Nsd-3m-QWd" secondAttribute="leading" id="yzm-Sr-QnX"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Nsd-3m-QWd"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IVM-e1-1ib"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xiE-6S-kHe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="47129" y="1485"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W26-rg-HlZ">
