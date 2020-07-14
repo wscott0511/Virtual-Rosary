@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94D22DF92486EB02004E671C"
-               BuildableName = "COVID Rosary.app"
+               BuildableName = "The Holy Rosary: Today.app"
                BlueprintName = "Virtual Rosary"
                ReferencedContainer = "container:Virtual Rosary.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94D22DF92486EB02004E671C"
-            BuildableName = "COVID Rosary.app"
+            BuildableName = "The Holy Rosary: Today.app"
             BlueprintName = "Virtual Rosary"
             ReferencedContainer = "container:Virtual Rosary.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94D22DF92486EB02004E671C"
-            BuildableName = "COVID Rosary.app"
+            BuildableName = "The Holy Rosary: Today.app"
             BlueprintName = "Virtual Rosary"
             ReferencedContainer = "container:Virtual Rosary.xcodeproj">
          </BuildableReference>
